@@ -23,7 +23,7 @@ def db_connect():
     # Закрытие курсора и соединения
     cur.close()
     conn.close()
-    #
+
     # # Подключение к базе данных postgres
     # conn = psycopg2.connect(
     #     dbname="postgres",
