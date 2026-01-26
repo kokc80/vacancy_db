@@ -24,6 +24,7 @@ def db_connect():
     cur.close()
     conn.close()
     #
+
     # # Подключение к базе данных postgres
     # conn = psycopg2.connect(
     #     dbname="postgres",
