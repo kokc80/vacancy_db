@@ -39,7 +39,6 @@ class HeadHunterEmp(ParserHHE):
         """Получение списка вакансий"""
         self._params['text'] = keyword
         while self._params.get('page') != 2:
-            # print("PAGE", self.params.get('page'))
             response = requests.get(self.__url, headers=self._headers, params=self._params)
             employers_items = response.json()['items']
             #print("EMP\n", employers_items)
@@ -51,5 +50,5 @@ if __name__ == "__main__":
     hh_api = HeadHunterEmp()
     hh_api._connect_to_api()
     api_employers = hh_api.load_employers("Python")
-    print("REZ  EMPLOYERS", api_employers)
+    # print("REZ  EMPLOYERS", api_employers)
 

@@ -1,14 +1,15 @@
+# временный файл
 from abc import ABC, abstractmethod
 
 import requests
 
 
-class ParserHHV(ABC):
+class ParserHH(ABC):
     """
     Класс Parser является абстрактным родительским классом
     """
     @abstractmethod
-    def load_vacancies(self, keyword) -> None:
+    def load_items(self, keyword) -> None:
         pass
 
     @abstractmethod
@@ -16,7 +17,7 @@ class ParserHHV(ABC):
         pass
 
 
-class HeadHunterVac(ParserHHV):
+class HeadHunterVac(ParserHH):
     """Класс для получения вакансий с API HeadHunter"""
     def __init__(self):
         self.__url = 'https://api.hh.ru/vacancies'
@@ -33,12 +34,13 @@ class HeadHunterVac(ParserHHV):
             #print("connect 200")
             return response
         else:
-            return 'Ошибка при обращении к API Vac - error'
+            return 'Ошибка при обращении к API - error'
 
-    def load_vacancies(self, keyword):
+    def load_items(self, keyword):
         """Получение списка вакансий"""
         self._params['text'] = keyword
         while self._params.get('page') != 2:
+            # print("PAGE", self.params.get('page'))
             response = requests.get(self.__url, headers=self._headers, params=self._params)
             vacancies_items = response.json()['items']
             # print("VAC\n", vacancies_items)
@@ -50,5 +52,5 @@ if __name__ == "__main__":
     hh_api = HeadHunterVac()
     hh_api._connect_to_api()
     api_vacantions = hh_api.load_vacancies("Python")
-    # print("REZ  VACANTIONS", api_vacantions)
+    print("REZ  VACANTIONS", api_vacantions)
 
