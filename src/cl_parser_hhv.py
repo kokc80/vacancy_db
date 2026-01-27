@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 import requests
 
 
-class Parser(ABC):
+class ParserHHV(ABC):
     """
     Класс Parser является абстрактным родительским классом
     """
@@ -16,7 +16,7 @@ class Parser(ABC):
         pass
 
 
-class HeadHunterAPI(Parser):
+class HeadHunterVac(ParserHHV):
     """Класс для получения вакансий с API HeadHunter"""
     def __init__(self):
         self.__url = 'https://api.hh.ru/vacancies'
@@ -30,10 +30,10 @@ class HeadHunterAPI(Parser):
         response = requests.get(self.__url, headers=self._headers, params=self._params)
         status = response.status_code
         if status == 200:
-            print("connect 200")
+            #print("connect 200")
             return response
         else:
-            return 'Ошибка при обращении к API - error'
+            return 'Ошибка при обращении к API Vac - error'
 
     def load_vacancies(self, keyword):
         """Получение списка вакансий"""
@@ -47,9 +47,9 @@ class HeadHunterAPI(Parser):
             self._params['page'] += 1
             return vacancies_items
 
-
 if __name__ == "__main__":
-    hh_api = HeadHunterAPI()
+    hh_api = HeadHunterVac()
     hh_api._connect_to_api()
     api_vacantions = hh_api.load_vacancies("Python")
     print("REZ  VACANTIONS", api_vacantions)
+

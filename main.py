@@ -7,4 +7,4 @@ from src.functions import  db_connect
 
 if __name__ == '__main__':
     db_connect("vacancy_db")
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
