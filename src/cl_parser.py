@@ -52,4 +52,4 @@ if __name__ == "__main__":
     hh_api = HeadHunterAPI()
     hh_api._connect_to_api()
     api_vacantions = hh_api.load_vacancies("Python")
-    print("REZ VACANTIONS", api_vacantions)
+    print("REZ  VACANTIONS", api_vacantions)
