@@ -16,6 +16,5 @@ class Employers:
             "vac_url": self.vac_url
         }
 
-
     def __str__(self):
         return f"Idd:{self.idd}"

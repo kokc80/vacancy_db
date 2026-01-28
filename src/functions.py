@@ -64,12 +64,12 @@ def emp_load(emp_list: list):
     emp_class_list = []
     while i < len(emp_list):
         emp_list_item = emp_list[i]
-        emp_class_item=Employers()
+        emp_class_item = Employers()
         emp_class_item.idd = emp_list_item["id"]
         emp_class_item.name = emp_list_item["name"]
         emp_class_item.emp_url = emp_list_item["url"]
-        emp_class_item.vac_url = emp_list_item.get("vacancies_url","NONE")
-        emp_class_item.open_vac = emp_list_item.get("open_vacancies",0)
+        emp_class_item.vac_url = emp_list_item.get("vacancies_url", "NONE")
+        emp_class_item.open_vac = emp_list_item.get("open_vacancies", 0)
         emp_class_list.append(emp_class_item)
         i += 1
     return (emp_class_list)
