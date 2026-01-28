@@ -31,7 +31,7 @@ class HeadHunterVac(ParserHH):
         response = requests.get(self.__url, headers=self._headers, params=self._params)
         status = response.status_code
         if status == 200:
-            #print("connect 200")
+            # print("connect 200")
             return response
         else:
             return 'Ошибка при обращении к API - error'
@@ -48,9 +48,9 @@ class HeadHunterVac(ParserHH):
             self._params['page'] += 1
             return vacancies_items
 
+
 if __name__ == "__main__":
     hh_api = HeadHunterVac()
     hh_api._connect_to_api()
     api_vacantions = hh_api.load_vacancies("Python")
     print("REZ  VACANTIONS", api_vacantions)
-
