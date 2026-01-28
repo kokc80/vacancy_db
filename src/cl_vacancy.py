@@ -1,16 +1,13 @@
 class Vacancy:
     """ класс представляет одну вакансию аттрибуты класса - части вакансии из разметки"""
-    __slots__ = ['idd', 'name', 'url', 'company', 'title', 'employment_form', 'salary_cur', 'salary_from', 'salary_to',
-                 'required_skills', 'location', 'description']
+    __slots__ = ['idd', 'name', 'url', 'emp_id', 'emp_name', 'sal_cur', 'sal_from', 'sal_to', 'sn_req', 'sn_res']
     idd: int
     name: str
     url: str
-    company: str
-    title: str
-    employment_form: str
+    emp_id: int
+    emp_name: str
     sal_cur: str
     sal_from: float
     sal_to: float
-    required_skills: str
-    location: str
-    description: str
+    sn_req: str
+    sn_res: str
