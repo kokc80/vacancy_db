@@ -9,8 +9,7 @@ def db_connect(db_name: str):
         host="localhost",
         user="postgres",
         password="678330",
-        port="5432"
-        )
+        port="5432")
     conn.autocommit = True
     try:
         cur = conn.cursor()
@@ -38,8 +37,7 @@ def db_connect(db_name: str):
             database=db_name,
             user="postgres",
             password="678330",
-            port="5432"
-            )
+            port="5432")
         conn.autocommit = True
         cur = conn.cursor()
         try:
@@ -92,13 +90,13 @@ def vac_load(vac_list: list):
             if vac_list_item["employer"]["id"] is not None:
                 vac_class_item.emp_id = vac_list_item["employer"]["id"]
             else:
-                vac_class_item.emp_id = "None"
+                vac_class_item.emp_id = -1
             if vac_list_item["employer"]["name"] is not None:
                 vac_class_item.emp_name = vac_list_item["employer"]["name"]
             else:
                 vac_class_item.emp_name = "None"
         else:
-            vac_class_item.emp_id = "None"
+            vac_class_item.emp_id = -1
             vac_class_item.emp_name = "None"
         if vac_list_item["salary"] is not None:
             if vac_list_item["salary"]["currency"] is not None:
@@ -133,7 +131,8 @@ def vac_load(vac_list: list):
         i += 1
     return (vac_class_list)
 
-def ins_tab(db_name: str, list_emp_class: list,  list_vac_class: list):
+
+def ins_tab(db_name: str, list_emp_class: list, list_vac_class: list):
     conn = psycopg2.connect(
         host="localhost",
         database=db_name,
@@ -148,7 +147,7 @@ def ins_tab(db_name: str, list_emp_class: list,  list_vac_class: list):
     while i < len(list_emp_class):
         try:
             q_insert = (f"INSERT INTO tab_emp (e_id, e_name, e_open_vac, e_emp_url, e_vac_url) "
-                        f"VALUES ({list_emp_class[i].idd}, \'{list_emp_class[i].name}\' ,{list_emp_class[i].open_vac}, "
+                        f"VALUES ({list_emp_class[i].idd}, \'{list_emp_class[i].name}\' ,{list_emp_class[i].open_vac}"
                         f"\'{list_emp_class[i].emp_url}\', \'{list_emp_class[i].vac_url}\')")
             cur.execute(q_insert)
         except:
@@ -160,11 +159,11 @@ def ins_tab(db_name: str, list_emp_class: list,  list_vac_class: list):
     print(f"Вставлено работодателей {ins_count} из {i} записей")
 
     i = 0
-    ins_count=0
+    ins_count = 0
     while i < len(list_vac_class):
         try:
-            q_insert = (f"INSERT INTO tab_vac (v_id, v_name, v_url, emp_id, snippet_req, snippet_res, sal_cur, sal_from,"
-                        f" sal_to) "
+            q_insert = (f"INSERT INTO tab_vac (v_id, v_name, v_url, emp_id, snippet_req, snippet_res, sal_cur, "
+                        f"sal_from, sal_to) "
                         f"VALUES ({list_vac_class[i].idd}, \'{list_vac_class[i].name}\', \'{list_vac_class[i].url}\', "
                         f"{list_vac_class[i].emp_id}, \'{list_vac_class[i].sn_req}\', \'{list_vac_class[i].sn_res}\', "
                         f"\'{list_vac_class[i].sal_cur}\', {list_vac_class[i].sal_from}, {list_vac_class[i].sal_to})")
@@ -178,7 +177,3 @@ def ins_tab(db_name: str, list_emp_class: list,  list_vac_class: list):
     cur.close()
     conn.close()
     print(f"Вставлено вакансий {ins_count} из {i} записей")
-
-
-
-
