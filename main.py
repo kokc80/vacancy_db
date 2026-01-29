@@ -14,24 +14,28 @@ if __name__ == '__main__':
     cl_Vac = HeadHunterVac()
     cl_Emp = HeadHunterEmp()
 
-    # считывание вакансий
-    list_vac = cl_Vac.load_vacancies("Python")
-    with open(ROOT_DIR + '\\data\\vac_1.json', 'w', encoding='utf-8') as f:
-        json.dump(list_vac, f, indent=4, sort_keys=True, ensure_ascii=False)
-    print("vac_1.json записан")
-    # with open(ROOT_DIR + '\\data\\vac_1.json', 'r', encoding="utf-8") as f:
-    #     list_vac = json.load(f)
-
     # считывание работодателей
-    list_emp = cl_Emp.load_employers("Яку")
-    with open(ROOT_DIR + '\\data\\emp_1.json', 'w', encoding='utf-8') as f:
-        json.dump(list_vac, f, indent=4, sort_keys=True, ensure_ascii=False)
-    print("emp_1.json записан")
-    # with open(ROOT_DIR + '\\data\\emp_1.json', 'r', encoding="utf-8") as f:
-    #     list_emp = json.load(f)
+    # list_emp = cl_Emp.load_employers("Яку")
+    # with open(ROOT_DIR + '\\data\\emp_1.json', 'w', encoding='utf-8') as f:
+    #     json.dump(list_emp, f, indent=4, sort_keys=True, ensure_ascii=False)
+    # print("emp_1.json записан")
+    with open(ROOT_DIR + '\\data\\emp_1.json', 'r', encoding="utf-8") as f:
+        list_emp = json.load(f)
+
+    # считывание вакансий
+    # list_vac = cl_Vac.load_vacancies("Python")
+    # with open(ROOT_DIR + '\\data\\vac_1.json', 'w', encoding='utf-8') as f:
+    #     json.dump(list_vac, f, indent=4, sort_keys=True, ensure_ascii=False)
+    # print("vac_1.json записан")
+    with open(ROOT_DIR + '\\data\\vac_1.json', 'r', encoding="utf-8") as f:
+        list_vac = json.load(f)
+
     db_connect("vacancy_db")
+
     print("Данные считаны")
+    print("Запись работодателей в таблицу")
     list_emp_class = emp_load(list_emp)
+    print("Запись вакансий в таблицу")
     list_vac_class = vac_load(list_vac)
-    ins_tab('vacancy_db', list_emp_class, list_vac_class)
+#    ins_tab('vacancy_db', list_emp_class, list_vac_class)
 #    ins_vac('vacancy_db', list_vac_class)

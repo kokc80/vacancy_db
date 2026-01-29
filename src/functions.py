@@ -21,13 +21,13 @@ def db_connect(db_name: str):
     try:
         cur.execute(f"DROP DATABASE {db_name};")
         print(f"Удаление БД '{db_name}' выполнено")
+        cur.execute(f"CREATE DATABASE {db_name};")
+        print(f"Создание БД - {db_name}")
     except:
-        print(f"Удаление БД не требуется, БД -'{db_name}' не существует")
+        print(f"Ошибка обработки, БД -'{db_name}")
     finally:
         print(f"Инициализация БД {db_name} прошла успешно")
     # Создание новой BD
-    cur.execute(f"CREATE DATABASE {db_name};")
-    print(f"Создание БД - {db_name}")
     # Закрытие курсора и соединения
     cur.close()
     conn.close()
@@ -81,6 +81,7 @@ def vac_load(vac_list: list):
     i = 0
     vac_class_list = []
     while i < len(vac_list):
+        #print(f"\n vac_load  vac_id {vac_class_item.idd}")
         vac_list_item = vac_list[i]
         vac_class_item = Vacancy()
         vac_class_item.idd = vac_list_item["id"]
@@ -90,13 +91,13 @@ def vac_load(vac_list: list):
             if vac_list_item["employer"]["id"] is not None:
                 vac_class_item.emp_id = vac_list_item["employer"]["id"]
             else:
-                vac_class_item.emp_id = -1
+                vac_class_item.emp_id = 0
             if vac_list_item["employer"]["name"] is not None:
                 vac_class_item.emp_name = vac_list_item["employer"]["name"]
             else:
                 vac_class_item.emp_name = "None"
         else:
-            vac_class_item.emp_id = -1
+            vac_class_item.emp_id = 0
             vac_class_item.emp_name = "None"
         if vac_list_item["salary"] is not None:
             if vac_list_item["salary"]["currency"] is not None:
@@ -128,6 +129,7 @@ def vac_load(vac_list: list):
             vac_class_item.sn_res = "NONE"
             vac_class_item.sn_req = "NONE"
         vac_class_list.append(vac_class_item)
+        # print(vac_list_item,f"\nпроверка vac_load \neee id {vac_class_item.emp_id} ddd {vac_class_item.emp_name}")
         i += 1
     return (vac_class_list)
 
