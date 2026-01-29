@@ -21,7 +21,7 @@ class HeadHunterEmp(ParserHHE):
     def __init__(self):
         self.__url = 'https://api.hh.ru/employers'
         self._headers = {'User-Agent': 'HH-User-Agent'}
-        self._params = {'text': '', 'page': 0, 'per_page': 90}
+        self._params = {'text': '', 'page': 0, 'per_page': 100}
         self._employers = []
 
     def _connect_to_api(self):

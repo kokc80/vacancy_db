@@ -38,7 +38,7 @@ class HeadHunterVac(ParserHHV):
     def load_vacancies(self, keyword):
         """Получение списка вакансий"""
         self._params['text'] = keyword
-        while self._params.get('page') != 2:
+        while self._params.get('page') != 10:
             response = requests.get(self.__url, headers=self._headers, params=self._params)
             vacancies_items = response.json()['items']
             # print("VAC\n", vacancies_items)
