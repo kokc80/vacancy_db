@@ -11,3 +11,16 @@ class Vacancy:
     sal_to: float
     sn_req: str
     sn_res: str
+
+    def to_dict(self):
+        return {
+            "idd": self.idd,
+            "name": self.name,
+            "url": self.url,
+            "emp_id": self.emp_id,
+            "emp_name": self.emp_name,
+            "sal_cur": self.sal_cur,
+            "sal_from": self.sal_cur,
+            "sal_to": self.sal_to,
+            "sn_req": self.sn_req,
+            "sn_res": self.sn_res}

@@ -17,4 +17,4 @@ class Employers:
         }
 
     def __str__(self):
-        return f"Idd:{self.idd}"
+        return f"Класс Emp Idd:{self.idd}, name:{self.name}"

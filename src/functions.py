@@ -56,15 +56,14 @@ def db_connect(db_name: str):
         print(f"Соединение и создание таблиц успешно c {db_name}")
 
 
-def emp_load(emp_list: list):
+def emp_load(emp_list: list) -> Employers():
     """Заполнение класса работодателей"""
-    emp_class_item = Employers
+    emp_class_item = Employers()
     i = 0
-    # print(emp_list)
+    # print("emp_list", emp_list)
     emp_class_list = []
-    while i < len(emp_list):
-        emp_list_item = emp_list[i]
-        emp_class_item = (Employers)
+    for emp_list_item in emp_list:
+        emp_class_item = Employers()
         emp_class_item.idd = emp_list_item["id"]
         emp_class_item.name = emp_list_item["name"]
         emp_class_item.emp_url = emp_list_item.get("employer", {}.get("url", "NONE"))
@@ -81,14 +80,13 @@ def vac_load(vac_list: list):
     i = 0
     vac_class_list = []
     while i < len(vac_list):
-        # print(f"\n vac_load  vac_id {vac_class_item.idd}")
         vac_list_item = vac_list[i]
-        vac_class_item = (Vacancy)
+        vac_class_item = Vacancy()
         vac_class_item.idd = vac_list_item["id"]
         vac_class_item.name = vac_list_item["name"]
         vac_class_item.url = vac_list_item.get("url", "NONE")
-        if vac_list_item.get("employer", {}.get("id", "NONE")) is not None:
-            vac_class_item.emp_id = vac_list_item.get("employer", {}.get("id", "NONE"))
+        if vac_list_item.get("id", "NONE") is not None:
+            vac_class_item.emp_id = vac_list_item.get("id", "NONE")
         else:
             vac_class_item.emp_id = "NONE"
         if vac_list_item.get("employer", {}.get("name", "NOne")) is not None:
@@ -96,16 +94,16 @@ def vac_load(vac_list: list):
         else:
             vac_class_item.emp_name = "None"
         if vac_list_item["salary"] is not None:
-            if vac_list_item.get("salary", {}.get("currency", "NON")) is not None:
-                vac_class_item.sal_cur = vac_list_item.get("salary", {}.get("currency", "NON"))
+            if vac_list_item["salary"]["currency"] is not None:
+                vac_class_item.sal_cur = vac_list_item["salary"]["currency"]
             else:
                 vac_class_item.sal_cur = "NON"
-            if vac_list_item.get("salary", {}.get("from", 0)) is not None:
-                vac_class_item.sal_from = vac_list_item.get("salary", {}.get("from", 0))
+            if vac_list_item["salary"]["from"] is not None:
+                vac_class_item.sal_from = vac_list_item["salary"]["from"]
             else:
                 vac_class_item.sal_from = -1
-            if vac_list_item.get("salary", {}.get("to", 0)) is not None:
-                vac_class_item.sal_to = vac_list_item.get("salary", {}.get("to", 0))
+            if vac_list_item["salary"]["to"] is not None:
+                vac_class_item.sal_to = vac_list_item["salary"]["to"]
             else:
                 vac_class_item.sal_to = -1
         else:
@@ -130,7 +128,7 @@ def vac_load(vac_list: list):
     return (vac_class_list)
 
 
-def ins_tab(db_name: str, list_emp_class: list, list_vac_class: list):
+def ins_tab(db_name: str, list_emp_class: Employers(), list_vac_class: Vacancy()):
     conn = psycopg2.connect(
         host="localhost",
         database=db_name,
@@ -143,14 +141,14 @@ def ins_tab(db_name: str, list_emp_class: list, list_vac_class: list):
     i = 0
     ins_count = 0
     while i < len(list_emp_class):
+        print(f"\n emp_list {list_emp_class[i].idd}")
         try:
             q_insert = (f"INSERT INTO tab_emp (e_id, e_name, e_open_vac, e_emp_url, e_vac_url) "
                         f"VALUES ({list_emp_class[i].idd}, \'{list_emp_class[i].name}\' ,{list_emp_class[i].open_vac},"
                         f"\'{list_emp_class[i].emp_url}\', \'{list_emp_class[i].vac_url}\')")
             cur.execute(q_insert)
         except:
-            print(f"{q_insert}")
-            print("Ошибка вставки в tab_emp")
+            print(f"Ошибка вставки в tab_emp {q_insert}")
         finally:
             ins_count += 1
         i += 1
@@ -159,20 +157,19 @@ def ins_tab(db_name: str, list_emp_class: list, list_vac_class: list):
     i = 0
     ins_count = 0
     while i < len(list_vac_class):
+        # print(f"\n vac_list", list_vac_class[i].idd)
         try:
             q_insert = (f"INSERT INTO tab_vac (v_id, v_name, v_url, emp_id, snippet_req, snippet_res, sal_cur, "
                         f"sal_from, sal_to) "
                         f"VALUES ({list_vac_class[i].idd}, \'{list_vac_class[i].name}\', \'{list_vac_class[i].url}\', "
                         f"{list_vac_class[i].emp_id}, \'{list_vac_class[i].sn_req}\', \'{list_vac_class[i].sn_res}\', "
                         f"\'{list_vac_class[i].sal_cur}\', {list_vac_class[i].sal_from}, {list_vac_class[i].sal_to})")
-            print("emp_id", list_vac_class[i].emp_id, "\n", list_vac_class[i].name)
-            emp_id_tmp = cur.execute(q_insert)
-            print(f"{q_insert}\n {emp_id_tmp}")
+            cur.execute(q_insert)
         except:
-            print("Ошибка вставки в tab_vac")
+            print(f"Ошибка вставки в tab_vac {q_insert}")
         finally:
             ins_count += 1
         i += 1
+    print(f"Вставлено вакансий {ins_count} из {i} записей")
     cur.close()
     conn.close()
-    print(f"Вставлено вакансий {ins_count} из {i} записей")

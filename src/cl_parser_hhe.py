@@ -21,7 +21,7 @@ class HeadHunterEmp(ParserHHE):
     def __init__(self):
         self.__url = 'https://api.hh.ru/employers'
         self._headers = {'User-Agent': 'HH-User-Agent'}
-        self._params = {'text': '', 'page': 0, 'per_page': 90}
+        self._params = {'text': '', 'page': 0, 'per_page': 100}
         self._employers = []
 
     def _connect_to_api(self):
@@ -36,13 +36,13 @@ class HeadHunterEmp(ParserHHE):
             return 'Ошибка при обращении к API Emp - error'
 
     def load_employers(self, keyword):
-        """Получение списка вакансий"""
+        """Получение списка работодателей"""
         self._params['text'] = keyword
-        while self._params.get('page') != 10:
+        while self._params.get('page') != 20:
             response = requests.get(self.__url, headers=self._headers, params=self._params)
             employers_items = response.json()['items']
             # print("EMP\n", employers_items)
-            self._employers.extend(employers_items)
+            self._employers.append(employers_items)
             self._params['page'] += 1
             return employers_items
 

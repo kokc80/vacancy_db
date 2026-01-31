@@ -15,8 +15,7 @@ if __name__ == '__main__':
     cl_Emp = HeadHunterEmp()
 
     # считывание работодателей
-    # list_emp = cl_Emp.load_employers("Яку")
-    # print("EMP main ",list_emp)
+    # list_emp = cl_Emp.load_employers("000")
     # with open(ROOT_DIR + '\\data\\emp_1.json', 'w', encoding='utf-8') as f:
     #     json.dump(list_emp, f, indent=4, sort_keys=True, ensure_ascii=False)
     # print("emp_1.json записан")
@@ -34,8 +33,10 @@ if __name__ == '__main__':
     db_connect("vacancy_db")
 
     print("Данные считаны")
-    print("Запись работодателей в таблицу")
+    # print("Запись работодателей в таблицу", list_emp)
     list_emp_class = emp_load(list_emp)
-    print("Запись вакансий в таблицу")
+    print("Работодатели записаны в таблицу")
     list_vac_class = vac_load(list_vac)
+    print("Вакансии записаны в таблицу")
+
     ins_tab('vacancy_db', list_emp_class, list_vac_class)
