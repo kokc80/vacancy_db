@@ -1,0 +1,1018 @@
+[
+    {
+        "alternate_url": "https://hh.ru/employer/988247",
+        "id": "988247",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1664371.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1664370.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1664369.jpeg"
+        },
+        "name": "007",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/988247",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=988247"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/605490",
+        "id": "605490",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1867543.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1867542.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1867541.png"
+        },
+        "name": "007, центр услуг",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/605490",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=605490"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4244677",
+        "id": "4244677",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "01",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4244677",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4244677"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4492703",
+        "id": "4492703",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "01",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4492703",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4492703"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1503841",
+        "id": "1503841",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "01SNAB",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1503841",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1503841"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1479609",
+        "id": "1479609",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/2330961.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/2330960.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/2330959.png"
+        },
+        "name": "01 Групп",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1479609",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1479609"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5858983",
+        "id": "5858983",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/4088020.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/4088019.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/4088018.png"
+        },
+        "name": "01 Групп",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5858983",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5858983"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4620243",
+        "id": "4620243",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6230987.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6230986.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6230984.png"
+        },
+        "name": "01Математика Образование",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4620243",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4620243"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1611980",
+        "id": "1611980",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1118112.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1118111.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1118110.png"
+        },
+        "name": "01Медиа",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1611980",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1611980"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1093862",
+        "id": "1093862",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/832905.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/832904.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/832903.jpeg"
+        },
+        "name": "01-Принтэк",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1093862",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1093862"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4595740",
+        "id": "4595740",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "01 ПРИНТЭК",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4595740",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4595740"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9057033",
+        "id": "9057033",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "01 Регион",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9057033",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9057033"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/823700",
+        "id": "823700",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "01-Сервис",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/823700",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=823700"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1629406",
+        "id": "1629406",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "01 Сервис",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1629406",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1629406"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4502783",
+        "id": "4502783",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "01-СЕРВИС",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4502783",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4502783"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10158780",
+        "id": "10158780",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6199282.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6199281.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6199280.png"
+        },
+        "name": "01сервис",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10158780",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10158780"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/12559240",
+        "id": "12559240",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "01-СЕРВИС",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/12559240",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=12559240"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9240900",
+        "id": "9240900",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "01-Технологии",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9240900",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9240900"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5701581",
+        "id": "5701581",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "024 Custom",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5701581",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5701581"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4123915",
+        "id": "4123915",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "02Медиа",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4123915",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4123915"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4323701",
+        "id": "4323701",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "02ПАК",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4323701",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4323701"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2224116",
+        "id": "2224116",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1714731.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1714730.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1714729.jpeg"
+        },
+        "name": "03 для Бухгалтера",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2224116",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2224116"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2784101",
+        "id": "2784101",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "03финанс",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2784101",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2784101"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1216895",
+        "id": "1216895",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "04405",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1216895",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1216895"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9465635",
+        "id": "9465635",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5808018.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5808017.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5808016.png"
+        },
+        "name": "0,465972222222222",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9465635",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9465635"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/12232740",
+        "id": "12232740",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "05Лаб",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/12232740",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=12232740"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4379106",
+        "id": "4379106",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "05 Регион",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4379106",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4379106"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11788596",
+        "id": "11788596",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "05тревел",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11788596",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11788596"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/76162",
+        "id": "76162",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/399661.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/326804.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/88872.jpeg"
+        },
+        "name": "064, информационный центр",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/76162",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=76162"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3319124",
+        "id": "3319124",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "0682ww",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3319124",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3319124"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5619521",
+        "id": "5619521",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "07",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5619521",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5619521"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3700565",
+        "id": "3700565",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "0714 групп",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3700565",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3700565"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1785290",
+        "id": "1785290",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1723747.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1723746.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1723745.png"
+        },
+        "name": "08",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1785290",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1785290"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4429980",
+        "id": "4429980",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/3257129.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/3257128.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/3257127.png"
+        },
+        "name": "0901",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/4429980",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4429980"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1755298",
+        "id": "1755298",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1441674.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1441673.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1441672.jpeg"
+        },
+        "name": "0state",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1755298",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1755298"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1921469",
+        "id": "1921469",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "0 калорий",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1921469",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1921469"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2828889",
+        "id": "2828889",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "0 КАЛОРИЙ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2828889",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2828889"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5624063",
+        "id": "5624063",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "+1",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5624063",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5624063"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2707827",
+        "id": "2707827",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "100+",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2707827",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2707827"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1172364",
+        "id": "1172364",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 1 сумка",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1172364",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1172364"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3619421",
+        "id": "3619421",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Адресов",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3619421",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3619421"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/911620",
+        "id": "911620",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 ВА",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/911620",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=911620"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2220612",
+        "id": "2220612",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 вакансий",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2220612",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2220612"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2818633",
+        "id": "2818633",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/2109179.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/2109178.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/2109177.png"
+        },
+        "name": "1000 ВАТТ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2818633",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2818633"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1561607",
+        "id": "1561607",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1080750.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1080749.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1080748.jpeg"
+        },
+        "name": "1000 домов",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1561607",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1561607"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2569322",
+        "id": "2569322",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Дорог",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2569322",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2569322"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/6091831",
+        "id": "6091831",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Дорог",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/6091831",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6091831"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1562582",
+        "id": "1562582",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5905130.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5905129.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5905128.png"
+        },
+        "name": "1000 дюймов",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1562582",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1562582"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11927028",
+        "id": "11927028",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Запчастей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11927028",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11927028"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1541860",
+        "id": "1541860",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 и 1 Еда",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1541860",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1541860"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5064090",
+        "id": "5064090",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Ибу",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/5064090",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5064090"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4667478",
+        "id": "4667478",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 и одна ночь",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4667478",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4667478"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/54794",
+        "id": "54794",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5798266.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5798265.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5798264.jpeg"
+        },
+        "name": "1000 и одна сумка",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/54794",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=54794"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/956713",
+        "id": "956713",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 и одна сумка",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/956713",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=956713"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1004961",
+        "id": "1004961",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 и одна сумка",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1004961",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1004961"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5647780",
+        "id": "5647780",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 КВАДРАТОВ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5647780",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5647780"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/247300",
+        "id": "247300",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/792699.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/792698.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/792697.jpeg"
+        },
+        "name": "1000 квартир, Агентство недвижимости",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/247300",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=247300"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1648091",
+        "id": "1648091",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1248901.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1248900.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1248899.jpeg"
+        },
+        "name": "1000 Клиентов",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1648091",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1648091"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1155079",
+        "id": "1155079",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 колготок",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1155079",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1155079"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3487952",
+        "id": "3487952",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/2616170.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/2616169.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/2616168.png"
+        },
+        "name": "1000 кухонь",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3487952",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3487952"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1887183",
+        "id": "1887183",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 ЛУЧШИХ ЮРИСТОВ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1887183",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1887183"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11430151",
+        "id": "11430151",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Мам",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11430151",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11430151"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/953134",
+        "id": "953134",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 мелочей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/953134",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=953134"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1149515",
+        "id": "1149515",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 мелочей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1149515",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1149515"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1672955",
+        "id": "1672955",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 мелочей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1672955",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1672955"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2248645",
+        "id": "2248645",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 мелочей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2248645",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2248645"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4065037",
+        "id": "4065037",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Мелочей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4065037",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4065037"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4303756",
+        "id": "4303756",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 мелочей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4303756",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4303756"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10698239",
+        "id": "10698239",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 мелочей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10698239",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10698239"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/12319085",
+        "id": "12319085",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 мелочей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/12319085",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=12319085"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3221638",
+        "id": "3221638",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 МЕТРОВ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3221638",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3221638"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11952917",
+        "id": "11952917",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Метров",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11952917",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11952917"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2080175",
+        "id": "2080175",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 МИЛЬ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2080175",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2080175"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1467620",
+        "id": "1467620",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 МОТО",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1467620",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1467620"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4098361",
+        "id": "4098361",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 полезных мелочей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4098361",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4098361"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1914222",
+        "id": "1914222",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/3872796.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/3872795.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/3872794.png"
+        },
+        "name": "1000 ПРОЕКТОВ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1914222",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1914222"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1786201",
+        "id": "1786201",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 РАЗМЕРОВ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1786201",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1786201"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5519782",
+        "id": "5519782",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Размеров",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5519782",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5519782"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/6030457",
+        "id": "6030457",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 размеров",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/6030457",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6030457"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1072965",
+        "id": "1072965",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 ремонтов",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1072965",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1072965"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9934264",
+        "id": "9934264",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6097306.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6097305.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6097304.jpeg"
+        },
+        "name": "1000 Свай",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9934264",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9934264"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9925694",
+        "id": "9925694",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 СИЛ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9925694",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9925694"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2686034",
+        "id": "2686034",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1999487.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1999486.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1999485.jpeg"
+        },
+        "name": "1000 СХЕМ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2686034",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2686034"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1445026",
+        "id": "1445026",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Такси",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1445026",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1445026"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1212462",
+        "id": "1212462",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1000 Услуг",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1212462",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1212462"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1175720",
+        "id": "1175720",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/833076.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/833075.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/833074.jpeg"
+        },
+        "name": "1000 цветов",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1175720",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1175720"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3563382",
+        "id": "3563382",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5535693.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5535692.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5535691.jpeg"
+        },
+        "name": "100+1",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3563382",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3563382"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11863419",
+        "id": "11863419",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo/7221916.png",
+            "90": "https://img.hhcdn.ru/employer-logo/7221915.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original/1400536.png"
+        },
+        "name": "1001 LABS",
+        "open_vacancies": 3,
+        "url": "https://api.hh.ru/employers/11863419",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11863419"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/12266847",
+        "id": "12266847",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo/7449370.png",
+            "90": "https://img.hhcdn.ru/employer-logo/7449369.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original/1457437.png"
+        },
+        "name": "1001 NIGHTS",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/12266847",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=12266847"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1592924",
+        "id": "1592924",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1101150.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1101149.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1101148.jpeg"
+        },
+        "name": "1001 автомобиль",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1592924",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1592924"
+    }
+]

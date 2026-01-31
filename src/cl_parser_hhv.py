@@ -21,7 +21,7 @@ class HeadHunterVac(ParserHHV):
     def __init__(self):
         self.__url = 'https://api.hh.ru/vacancies'
         self._headers = {'User-Agent': 'HH-User-Agent'}
-        self._params = {'text': '', 'page': 0, 'per_page': 100}
+        self._params = {'text': '', 'page': 0, 'per_page': 90}
         self._vacancies = []
 
     def _connect_to_api(self):
@@ -51,4 +51,4 @@ if __name__ == "__main__":
     hh_api = HeadHunterVac()
     hh_api._connect_to_api()
     api_vacantions = hh_api.load_vacancies("Python")
-    # print("REZ  VACANTIONS", api_vacantions)
+    # print("REZ parser  VACANTIONS", api_vacantions)

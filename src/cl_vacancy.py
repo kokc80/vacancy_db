@@ -4,7 +4,7 @@ class Vacancy:
     idd: int
     name: str
     url: str
-    emp_id: int
+    emp_id: str
     emp_name: str
     sal_cur: str
     sal_from: float

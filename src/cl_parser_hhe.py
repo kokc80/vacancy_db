@@ -21,7 +21,7 @@ class HeadHunterEmp(ParserHHE):
     def __init__(self):
         self.__url = 'https://api.hh.ru/employers'
         self._headers = {'User-Agent': 'HH-User-Agent'}
-        self._params = {'text': '', 'page': 0, 'per_page': 100}
+        self._params = {'text': '', 'page': 0, 'per_page': 90}
         self._employers = []
 
     def _connect_to_api(self):
@@ -50,5 +50,5 @@ class HeadHunterEmp(ParserHHE):
 if __name__ == "__main__":
     hh_api = HeadHunterEmp()
     hh_api._connect_to_api()
-    api_employers = hh_api.load_employers("Python")
-    # print("REZ  EMPLOYERS", api_employers)
+    api_employers = hh_api.load_employers("000")
+    print("REZ parser EMPLOYERS", api_employers)
