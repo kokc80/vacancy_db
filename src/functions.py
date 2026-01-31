@@ -64,10 +64,10 @@ def emp_load(emp_list: list):
     emp_class_list = []
     while i < len(emp_list):
         emp_list_item = emp_list[i]
-        emp_class_item = Employers()
+        emp_class_item = (Employers)
         emp_class_item.idd = emp_list_item["id"]
         emp_class_item.name = emp_list_item["name"]
-        emp_class_item.emp_url = emp_list_item.get("employer",{}.get("url", "NONE"))
+        emp_class_item.emp_url = emp_list_item.get("employer", {}.get("url", "NONE"))
         emp_class_item.vac_url = emp_list_item.get("vacancies_url", "NONE")
         emp_class_item.open_vac = emp_list_item.get("open_vacancies", 0)
         emp_class_list.append(emp_class_item)
@@ -81,31 +81,31 @@ def vac_load(vac_list: list):
     i = 0
     vac_class_list = []
     while i < len(vac_list):
-        #print(f"\n vac_load  vac_id {vac_class_item.idd}")
+        # print(f"\n vac_load  vac_id {vac_class_item.idd}")
         vac_list_item = vac_list[i]
-        vac_class_item = Vacancy()
+        vac_class_item = (Vacancy)
         vac_class_item.idd = vac_list_item["id"]
         vac_class_item.name = vac_list_item["name"]
         vac_class_item.url = vac_list_item.get("url", "NONE")
-        if vac_list_item.get("employer",{}.get("id", "NONE" )) is not None:
-            vac_class_item.emp_id = vac_list_item.get("employer",{}.get("id", "NONE" ))
+        if vac_list_item.get("employer", {}.get("id", "NONE")) is not None:
+            vac_class_item.emp_id = vac_list_item.get("employer", {}.get("id", "NONE"))
         else:
             vac_class_item.emp_id = "NONE"
-        if vac_list_item.get("employer",{}.get("name", "NOne")) is not None:
+        if vac_list_item.get("employer", {}.get("name", "NOne")) is not None:
             vac_class_item.emp_name = vac_list_item["employer"]["name"]
         else:
             vac_class_item.emp_name = "None"
         if vac_list_item["salary"] is not None:
-            if vac_list_item.get("salary",{}.get("currency", "NON")) is not None:
-                vac_class_item.sal_cur = vac_list_item.get("salary",{}.get("currency","NON"))
+            if vac_list_item.get("salary", {}.get("currency", "NON")) is not None:
+                vac_class_item.sal_cur = vac_list_item.get("salary", {}.get("currency", "NON"))
             else:
                 vac_class_item.sal_cur = "NON"
-            if vac_list_item.get("salary",{}.get("from",0)) is not None:
-                vac_class_item.sal_from = vac_list_item.get("salary",{}.get("from",0))
+            if vac_list_item.get("salary", {}.get("from", 0)) is not None:
+                vac_class_item.sal_from = vac_list_item.get("salary", {}.get("from", 0))
             else:
                 vac_class_item.sal_from = -1
-            if vac_list_item.get("salary",{}.get("to",0)) is not None:
-                vac_class_item.sal_to = vac_list_item.get("salary",{}.get("to",0))
+            if vac_list_item.get("salary", {}.get("to", 0)) is not None:
+                vac_class_item.sal_to = vac_list_item.get("salary", {}.get("to", 0))
             else:
                 vac_class_item.sal_to = -1
         else:
@@ -165,11 +165,11 @@ def ins_tab(db_name: str, list_emp_class: list, list_vac_class: list):
                         f"VALUES ({list_vac_class[i].idd}, \'{list_vac_class[i].name}\', \'{list_vac_class[i].url}\', "
                         f"{list_vac_class[i].emp_id}, \'{list_vac_class[i].sn_req}\', \'{list_vac_class[i].sn_res}\', "
                         f"\'{list_vac_class[i].sal_cur}\', {list_vac_class[i].sal_from}, {list_vac_class[i].sal_to})")
-            print("emp_id", list_vac_class[i].emp_id,"\n",list_vac_class[i].name)
+            print("emp_id", list_vac_class[i].emp_id, "\n", list_vac_class[i].name)
             emp_id_tmp = cur.execute(q_insert)
+            print(f"{q_insert}\n {emp_id_tmp}")
         except:
             print("Ошибка вставки в tab_vac")
-            print(f"{q_insert}\n {emp_id_tmp}")
         finally:
             ins_count += 1
         i += 1
