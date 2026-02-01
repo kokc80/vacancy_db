@@ -151,6 +151,7 @@ def ins_tab(db_name: str, list_emp_class: Employers(), list_vac_class: Vacancy()
     cur = conn.cursor()
     i = 0
     ins_count = 0
+    ins_count_err = 0
     while i < len(list_emp_class):
         # print(f"\n func EMP_LIST.Idd {list_emp_class[i].idd}")
         try:
@@ -158,12 +159,13 @@ def ins_tab(db_name: str, list_emp_class: Employers(), list_vac_class: Vacancy()
                         f"VALUES ({list_emp_class[i].idd}, \'{list_emp_class[i].name}\' ,{list_emp_class[i].open_vac},"
                         f"\'{list_emp_class[i].emp_url}\', \'{list_emp_class[i].vac_url}\')")
             cur.execute(q_insert)
+            ins_count += 1
         except:
             print(f"Ошибка вставки в tab_emp {q_insert}")
+            ins_count_err += 1
         finally:
-            ins_count += 1
-        i += 1
-    print(f"Вставлено работодателей {ins_count} из {i} записей")
+            i += 1
+    print(f"Вставлено работодателей {ins_count} записей из {i} записей \n Ошибок записи {ins_count_err} ")
 
     i = 0
     ins_count = 0
@@ -177,11 +179,12 @@ def ins_tab(db_name: str, list_emp_class: Employers(), list_vac_class: Vacancy()
                         f"\'{list_vac_class[i].sn_res}\', \'{list_vac_class[i].sal_cur}\', "
                         f"{list_vac_class[i].sal_from}, {list_vac_class[i].sal_to})")
             cur.execute(q_insert)
-        except:
-            print(f"Ошибка вставки в tab_vac {q_insert}")
-        finally:
             ins_count += 1
-        i += 1
-    print(f"Вставлено вакансий {ins_count} из {i} записей")
+        except:
+            print(f"Ошибка вставки в tab_vac \n {q_insert}")
+            ins_count_err += 1
+        finally:
+            i += 1
+    print(f"Вставлено вакансий {ins_count} записей из {i} записей \n Ошибок записи {ins_count_err} ")
     cur.close()
     conn.close()

@@ -14,19 +14,20 @@ if __name__ == '__main__':
     cl_Vac = HeadHunterVac()
     cl_Emp = HeadHunterEmp()
 
-    # считывание работодателей
+    # считывание работодателей с API
     # list_emp = cl_Emp.load_employers("000")
     # with open(ROOT_DIR + '\\data\\emp_1.json', 'w', encoding='utf-8') as f:
     #     json.dump(list_emp, f, indent=4, sort_keys=True, ensure_ascii=False)
     # print("emp_1.json записан")
-    with open(ROOT_DIR + '\\data\\emp_1.json', 'r', encoding="utf-8") as f:
-        list_emp = json.load(f)
-
-    # считывание вакансий
+    # # считывание вакансий с API
     # list_vac = cl_Vac.load_vacancies("Python")
     # with open(ROOT_DIR + '\\data\\vac_1.json', 'w', encoding='utf-8') as f:
     #     json.dump(list_vac, f, indent=4, sort_keys=True, ensure_ascii=False)
     # print("vac_1.json записан")
+
+    # данных с json временно
+    with open(ROOT_DIR + '\\data\\emp_1.json', 'r', encoding="utf-8") as f:
+        list_emp = json.load(f)
     with open(ROOT_DIR + '\\data\\vac_1.json', 'r', encoding="utf-8") as f:
         list_vac = json.load(f)
 

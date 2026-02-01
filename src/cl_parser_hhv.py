@@ -36,16 +36,43 @@ class HeadHunterVac(ParserHHV):
             return 'Ошибка при обращении к API Vac - error'
 
     def load_vacancies(self, keyword):
-        """Получение списка вакансий"""
+        """Получение списка вакансий с API"""
         self._params['text'] = keyword
-        while self._params.get('page') != 10:
-            response = requests.get(self.__url, headers=self._headers, params=self._params)
-            vacancies_items = response.json()['items']
-            # print("VAC\n", vacancies_items)
-            self._vacancies.append(vacancies_items)
-            self._params['page'] += 1
-            return vacancies_items
+        self._params['page'] = 0  # Инициализируем страницу
+        all_vacancies = []  # Временный список для всех вакансий
 
+        while self._params['page'] <= 5:
+            try:
+                response = requests.get(
+                    self.__url,
+                    headers=self._headers,
+                    params=self._params
+                )
+                response.raise_for_status()  # Проверяем HTTP-статус
+                data = response.json()
+                # Проверяем наличие 'items' в ответе
+                if 'items' not in data:
+                    print(f"Нет данных 'items' на странице {self._params['page']}")
+                    break
+                vacancies_items = data['items']
+                # Добавляем каждую вакансию отдельно
+                for vacancy in vacancies_items:
+                    all_vacancies.append(vacancy)
+                # print(f"VACs page {self._params['page']}: {len(vacancies_items)} вакансий")
+                # Если на странице нет вакансий — заканчиваем
+                if len(vacancies_items) == 0:
+                    break
+                self._params['page'] += 1
+            except requests.exceptions.RequestException as e:
+                print(f"Ошибка запроса на странице {self._params['page']}: {e}")
+                break
+            except KeyError as e:
+                print(f"Ошибка парсинга JSON на странице {self._params['page']}: {e}")
+                break
+
+        # Сохраняем все вакансии в атрибут класса
+        self._vacancies = all_vacancies
+        return all_vacancies
 
 if __name__ == "__main__":
     hh_api = HeadHunterVac()
