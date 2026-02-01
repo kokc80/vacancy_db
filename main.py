@@ -35,8 +35,7 @@ if __name__ == '__main__':
     print("Данные считаны")
     # print("Запись работодателей в таблицу", list_emp)
     list_emp_class = emp_load(list_emp)
-    print("Работодатели записаны в таблицу")
     list_vac_class = vac_load(list_vac)
-    print("Вакансии записаны в таблицу")
+    print("Данные записаны в таблицу")
 
     ins_tab('vacancy_db', list_emp_class, list_vac_class)

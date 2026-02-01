@@ -1,7 +1,14 @@
 class DBManager:
     def get_companies_and_vacancies_count(self):
         """получает список всех компаний и количество вакансий у каждой компании."""
-        pass
+        conn = psycopg2.connect(host="localhost", database=db_name, user="postgres", password="678330", port="5432")
+        conn.autocommit = True
+        cur = conn.cursor()
+        tmp_quwery = "SELECT count(*) tab_emp"
+        cur.execute(tmp_quwery)
+
+        tmp_quwery = "SELECT count(*) from tab_emp"
+        cur.execute(tmp_quwery)
 
     def get_all_vacancies(self):
         """получает список всех вакансий с указанием наз-я компании, наз-я вакансии и зарплаты и ссылки на вакансию."""
