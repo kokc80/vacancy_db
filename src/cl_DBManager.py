@@ -5,10 +5,10 @@ class DBManager:
         conn.autocommit = True
         cur = conn.cursor()
         tmp_quwery = "SELECT count(*) tab_emp"
-        cur.execute(tmp_quwery)
+        # cur.execute(tmp_quwery)
 
         tmp_quwery = "SELECT count(*) from tab_emp"
-        cur.execute(tmp_quwery)
+        # cur.execute(tmp_quwery)
 
     def get_all_vacancies(self):
         """получает список всех вакансий с указанием наз-я компании, наз-я вакансии и зарплаты и ссылки на вакансию."""

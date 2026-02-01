@@ -41,7 +41,7 @@ class HeadHunterVac(ParserHHV):
         self._params['page'] = 0  # Инициализируем страницу
         all_vacancies = []  # Временный список для всех вакансий
 
-        while self._params['page'] <= 5:
+        while self._params['page'] < 20:
             try:
                 response = requests.get(
                     self.__url,
@@ -69,7 +69,6 @@ class HeadHunterVac(ParserHHV):
             except KeyError as e:
                 print(f"Ошибка парсинга JSON на странице {self._params['page']}: {e}")
                 break
-
         # Сохраняем все вакансии в атрибут класса
         self._vacancies = all_vacancies
         return all_vacancies
