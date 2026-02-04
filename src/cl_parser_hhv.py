@@ -41,7 +41,7 @@ class HeadHunterVac(ParserHHV):
         self._params['page'] = 0  # Инициализируем страницу
         all_vacancies = []  # Временный список для всех вакансий
 
-        while self._params['page'] < 20:
+        while self._params['page'] < 2:
             try:
                 response = requests.get(
                     self.__url,
@@ -71,10 +71,11 @@ class HeadHunterVac(ParserHHV):
                 break
         # Сохраняем все вакансии в атрибут класса
         self._vacancies = all_vacancies
-        return all_vacancies
+        return self._vacancies
 
 if __name__ == "__main__":
     hh_api = HeadHunterVac()
     hh_api._connect_to_api()
     api_vacantions = hh_api.load_vacancies("Python")
-    # print("REZ parser  VACANTIONS", api_vacantions)
+    print("REZ parser  VACANTIONS", api_vacantions)
+

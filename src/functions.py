@@ -1,6 +1,7 @@
 from os.path import exists
 
 import psycopg2
+import requests
 from src.cl_emlpoyers import Employers
 from src.cl_vacancy import Vacancy
 
@@ -43,13 +44,18 @@ def db_connect(db_name: str):
         conn.autocommit = True
         cur = conn.cursor()
         try:
-            cur.execute("CREATE TABLE tab_emp (e_id int, e_name varchar, e_open_vac int,e_emp_url varchar, "
-                        "e_vac_url varchar)")
-            cur.execute("CREATE TABLE tab_vac (v_id int, v_name varchar, v_url varchar, emp_id int, "
-                        "snippet_req varchar, snippet_res varchar, sal_cur varchar, sal_from float, sal_to float)")
-            print("Таблицы созданы")
+            cur.execute("CREATE TABLE tab_vac (v_id int, v_name varchar, v_url varchar, emp_id varchar, "
+                        "emp_name varchar, emp_url varchar, snippet_req varchar, snippet_res varchar, sal_cur varchar, "
+                        "sal_from float, sal_to float)")
+            print("Таблица tab_vac создана")
         except:
-            print("Ошибка создания таблиц")
+            print("Ошибка создания таблицы tab_vac")
+        try:
+            cur.execute("CREATE TABLE tab_emp (emp_id int, emp_name varchar, emp_url varchar, emp_vac_url varchar, "
+                        "open_vac int, emp_descr varchar")
+            print("Таблица tab_emp создана")
+        except:
+            print("Ошибка создания таблицы tab_emp")
         cur.close()
         conn.close()
     except:
@@ -63,11 +69,11 @@ def emp_load(emp_list: list) -> Employers():
     emp_class_item = Employers()
     i = 0
     # print("emp_list", emp_list)
-    emp_class_list = []
+    emp_class_list = [Employers]
     for emp_list_item in emp_list:
         emp_class_item = Employers()
-        emp_class_item.idd = emp_list_item["id"]
-        emp_class_item.name = emp_list_item["name"]
+        emp_class_item.emp_idd = emp_list_item["id"]
+        emp_class_item.emp_name = emp_list_item["name"]
         emp_class_item.emp_url = emp_list_item.get("employer", {}.get("url", "NONE"))
         emp_class_item.vac_url = emp_list_item.get("vacancies_url", "NONE")
         emp_class_item.open_vac = emp_list_item.get("open_vacancies", 0)
@@ -77,7 +83,7 @@ def emp_load(emp_list: list) -> Employers():
 
 
 def vac_load(vac_list: list):
-    """Заполнение класса работодателей"""
+    """Заполнение класса вакансий"""
     vac_class_item = Vacancy
     i = 0
     # print("Func vac_list", vac_list)
@@ -96,14 +102,18 @@ def vac_load(vac_list: list):
             else:
                 vac_class_item.emp_id = 0
             if vac_list_item.get("employer", {}).get("name", None) is not None:
-                # print("сущ name",vac_list_item["employer"]["name"])
                 vac_class_item.emp_name = vac_list_item["employer"]["name"]
             else:
-                vac_class_item.emp_name = "нет"
+                vac_class_item.emp_name = "Нет названия"
+            if vac_list_item.get("employer", {}).get("url", None) is not None:
+                vac_class_item.emp_url = vac_list_item["employer"]["url"]
+            else:
+                vac_class_item.emp_url = "Нет ссылки"
         else:
             # print("employer не существует" )
             vac_class_item.emp_id = 0
-            vac_class_item.emp_name = "Нет имени работодателя"
+            vac_class_item.emp_name = "Нет названия"
+            vac_class_item.emp_url = "Нет ссылки"
         if vac_list_item["salary"] is not None:
             if vac_list_item["salary"]["currency"] is not None:
                 vac_class_item.sal_cur = vac_list_item["salary"]["currency"]
@@ -139,7 +149,7 @@ def vac_load(vac_list: list):
     return (vac_class_list)
 
 
-def ins_tab(db_name: str, list_emp_class: Employers(), list_vac_class: Vacancy()):
+def ins_tab_vac(db_name: str, list_vac_class: Vacancy()):
     conn = psycopg2.connect(
         host="localhost",
         database=db_name,
@@ -147,44 +157,58 @@ def ins_tab(db_name: str, list_emp_class: Employers(), list_vac_class: Vacancy()
         password="678330",
         port="5432"
     )
+    print("Вакансии", len(list_vac_class))
     conn.autocommit = True
     cur = conn.cursor()
     i = 0
     ins_count = 0
     ins_count_err = 0
-    while i < len(list_emp_class):
-        # print(f"\n func EMP_LIST.Idd {list_emp_class[i].idd}")
-        try:
-            q_insert = (f"INSERT INTO tab_emp (e_id, e_name, e_open_vac, e_emp_url, e_vac_url) "
-                        f"VALUES ({list_emp_class[i].idd}, \'{list_emp_class[i].name}\' ,{list_emp_class[i].open_vac},"
-                        f"\'{list_emp_class[i].emp_url}\', \'{list_emp_class[i].vac_url}\')")
-            cur.execute(q_insert)
-            ins_count += 1
-        except:
-            print(f"Ошибка вставки в tab_emp {q_insert}")
-            ins_count_err += 1
-        finally:
-            i += 1
-    print(f"Вставлено работодателей {ins_count} записей из {i} записей \n Ошибок записи {ins_count_err} ")
 
-    i = 0
-    ins_count = 0
-    while i < len(list_vac_class):
-        # print(f"\n vac_list", list_vac_class[i].idd)
-        try:
-            q_insert = (f"INSERT INTO tab_vac (v_id, v_name, v_url, emp_id, snippet_req, snippet_res, sal_cur, "
-                        f"sal_from, sal_to) "
-                        f"VALUES ({list_vac_class[i].idd}, \'{list_vac_class[i].name}\', \'{list_vac_class[i].url}\', "
-                        f"\'{list_vac_class[i].emp_id}\', \'{list_vac_class[i].sn_req}\', "
-                        f"\'{list_vac_class[i].sn_res}\', \'{list_vac_class[i].sal_cur}\', "
-                        f"{list_vac_class[i].sal_from}, {list_vac_class[i].sal_to})")
-            cur.execute(q_insert)
-            ins_count += 1
-        except:
-            print(f"Ошибка вставки в tab_vac \n {q_insert}")
-            ins_count_err += 1
-        finally:
-            i += 1
-    print(f"Вставлено вакансий {ins_count} записей из {i} записей \n Ошибок записи {ins_count_err} ")
+    # emp_class_item = Employers
+    # while i < len(list_vac_class):
+    #     emp_class_item.emp_idd = list_vac_class[i].emp_id
+    #     emp_class_item.emp_name = list_vac_class[i].emp_name
+    #     emp_class_item.emp_url = list_vac_class[i].emp_url
+    #     q_insert = (f"INSERT INTO tab_emp (emp_id, emp_name, emp_url) VALUES (\'{emp_class_item.emp_idd}\', "
+    #                 f"\'{emp_class_item.emp_name}\', \'{emp_class_item.emp_url}\')")
+    #     try:
+    #         cur.execute(q_insert)
+    #         ins_count += 1
+    #     except:
+    #         print(f"Ошибка вставки в tab_emp1 \n {q_insert}")
+    #         ins_count_err += 1
+    #     finally:
+    #         i += 1
+    # print(f"Вставлено вакансий {ins_count} записей из {i} записей \n Ошибок записи {ins_count_err} ")
     cur.close()
     conn.close()
+
+
+def load_vac_from_emp(list_emp: list):
+    for item_emp in list_emp:
+        API_headers = {'User-Agent': 'HH-User-Agent'}
+        API_params = {'page': 0, 'per_page': 100}
+        # print(item_emp)
+        # print(item_emp.emp_idd, item_emp.vac_url)
+        print("API_URL", item_emp["vacancies_url"])
+        response = requests.get(item_emp["vacancies_url"], headers=API_headers, params=API_params)
+        status = response.status_code
+        data_vac = response.json()
+        print(data_vac)
+        if status == 200:
+            # print("connect 200")
+            rez_load(data_vac)
+        else:
+            print('Ошибка при обращении к API Vac - error', item_emp["vacancies_url"])
+
+def rez_load(vac_list):
+    """Заполнение класса работодателей"""
+    i = 0
+    if "items" not in vac_list:
+        print(f"Нет данных 'items' на странице {self._params['page']}")
+
+    vac_items = vac_list['items']
+    for vac_item in vac_items:
+        print(f"vac_iteb {vac_item["id"]},{vac_item.get("vacancies_url","Без URL")},{vac_item.get("name","без назв-я")}"
+              f"{vac_item["snippet"]["requirement"]},{vac_item["snippet"]["responsibility"]}\n")
+    # return (emp_class_list)

@@ -30,7 +30,7 @@ class HeadHunterEmp(ParserHHE):
         response = requests.get(self.__url, headers=self._headers, params=self._params)
         status = response.status_code
         if status == 200:
-            # print("connect 200")
+            print("EMP connect 200")
             return response
         else:
             return 'Ошибка при обращении к API Emp - error'
@@ -43,11 +43,7 @@ class HeadHunterEmp(ParserHHE):
 
         while self._params['page'] <= 200:
             try:
-                response = requests.get(
-                    self.__url,
-                    headers=self._headers,
-                    params=self._params
-                )
+                response = requests.get(self.__url, headers=self._headers, params=self._params)
                 response.raise_for_status()  # Проверяем HTTP-статус
                 data = response.json()
                 # Проверяем наличие 'items' в ответе
@@ -55,11 +51,8 @@ class HeadHunterEmp(ParserHHE):
                     print(f"Нет данных 'items' на странице {self._params['page']}")
                     break
                 employers_items = data['items']
-                # Добавляем каждую вакансию отдельно
                 for employers in employers_items:
                     all_employers.append(employers)
-                # print(f"VACs page {self._params['page']}: {len(employers_items)} вакансий")
-                # Если на странице нет вакансий — заканчиваем
                 if len(employers_items) == 0:
                     break
                 self._params['page'] += 1
@@ -79,5 +72,7 @@ class HeadHunterEmp(ParserHHE):
 if __name__ == "__main__":
     hh_api = HeadHunterEmp()
     hh_api._connect_to_api()
-    api_employers = hh_api.load_employers("Python")
+    api_employers = hh_api.load_employers("drivee")
     print("REZ parser EMPLOYERS", api_employers)
+
+# emp_v_url url цикл emp_id
