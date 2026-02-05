@@ -157,7 +157,7 @@
             "original": "https://img.hhcdn.ru/employer-logo-original-round/4090654.png"
         },
         "name": "Аэропорт Якутск",
-        "open_vacancies": 14,
+        "open_vacancies": 24,
         "url": "https://api.hh.ru/employers/2894945",
         "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2894945"
     },
@@ -341,7 +341,7 @@
         "is_identified_by_esia": false,
         "logo_urls": null,
         "name": "ГБУ РС (Я) Якутское постпредство в г. Москве",
-        "open_vacancies": 1,
+        "open_vacancies": 2,
         "url": "https://api.hh.ru/employers/1490643",
         "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1490643"
     },
@@ -689,7 +689,7 @@
         "is_identified_by_esia": false,
         "logo_urls": null,
         "name": "МКУ Централизованная Бухгалтерия Городского Округа Город Якутск",
-        "open_vacancies": 3,
+        "open_vacancies": 6,
         "url": "https://api.hh.ru/employers/11806729",
         "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11806729"
     },
@@ -893,7 +893,7 @@
             "original": "https://img.hhcdn.ru/employer-logo-original-round/3165659.jpeg"
         },
         "name": "Полиметалл",
-        "open_vacancies": 349,
+        "open_vacancies": 323,
         "url": "https://api.hh.ru/employers/174",
         "vacancies_url": "https://api.hh.ru/vacancies?employer_id=174"
     },
