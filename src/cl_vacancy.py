@@ -32,7 +32,6 @@ class Vacancy:
             "emp_name": self.emp_name,
             "emp_url": self.emp_url}
 
-
     def __init__(self):
         self.vac_idd = None      # Инициализируем как None или пустую строку
         self.vac_name = ""

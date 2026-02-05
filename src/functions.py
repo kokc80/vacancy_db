@@ -1,4 +1,3 @@
-from os.path import exists
 from types import NoneType
 
 import requests
@@ -104,7 +103,6 @@ def vac_load(vac_list: list):
 def compile_vac_from_emp(list_emp: list):
     """Собирает вакансии работодателей"""
     i = 0
-    i_all = len(list_emp)
     emp_vac_list: list
     emp_vac_list = []
     for item_emp in list_emp:
@@ -128,7 +126,7 @@ def compile_vac_from_emp(list_emp: list):
                                 emp_vac_list.append(emp_vac_item)
                 else:
                     print('Ошибка при обращении к API Vac - error', item_emp["vacancies_url"])
-    return(emp_vac_list)
+    return (emp_vac_list)
 
 
 def rez_load_emp(vac_list):
@@ -137,17 +135,17 @@ def rez_load_emp(vac_list):
     tmp_list = []
     if "items" not in vac_list:
         result = "Нет данных 'items' на странице {self._params['page']}"
-        return(result)
+        return (result)
     else:
         vac_items = vac_list['items']
         # Убираем работодателей без вакансий
         if len(vac_items) > 0:
             for vac_item in vac_items:
                 result = (
-                    f"VAC_item: {vac_item}\nVAC_print: {vac_item.get("vacancies_url", "Без URL")},{vac_item.get("name", "без назв-я")},"
-                    f"{vac_item["snippet"]["requirement"]},{vac_item["snippet"]["responsibility"]}\n")
+                    f"VAC_item: {vac_item}\nVAC_print: {vac_item.get("vacancies_url", "Без URL")},"
+                    f"{vac_item.get("name", "без назв-я")}, {vac_item["snippet"]["requirement"]},"
+                    f"{vac_item["snippet"]["responsibility"]}\n")
                 tmp_list.append(vac_item)
         else:
-           return
-    return(tmp_list)
-
+            return
+    return (tmp_list)

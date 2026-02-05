@@ -74,5 +74,3 @@ if __name__ == "__main__":
     hh_api._connect_to_api()
     api_employers = hh_api.load_employers("drivee")
     print("REZ parser EMPLOYERS", api_employers)
-
-# emp_v_url url цикл emp_id

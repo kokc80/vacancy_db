@@ -1,7 +1,10 @@
-class DBManager:
+import psycopg2
 
+
+class DBManager:
     def get_companies_and_vacancies_count(self):
         """получает список всех компаний и количество вакансий у каждой компании."""
+        db_name = "vacancy_db"
         conn = psycopg2.connect(host="localhost", database=db_name, user="postgres", password="678330", port="5432")
         conn.autocommit = True
         cur = conn.cursor()

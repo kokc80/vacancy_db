@@ -10,7 +10,6 @@ from src.cl_parser_hhe import HeadHunterEmp
 from src.cl_parser_hhv import HeadHunterVac
 
 
-
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 if __name__ == '__main__':
     db_connect("vacancy_db")
@@ -23,10 +22,10 @@ if __name__ == '__main__':
     #     json.dump(list_emp, f, indent=4, sort_keys=True, ensure_ascii=False)
     # считывание данных работодателя с json временно
     with open(ROOT_DIR + '\\data\\emp_1.json', 'r', encoding="utf-8") as f:
-         list_emp = json.load(f)
-    list_emp_class = emp_load(list_emp) #из списка вакансий создаем класс работодателей
+        list_emp = json.load(f)
+    list_emp_class = emp_load(list_emp)  # из списка вакансий создаем класс работодателей
     for item_class in list_emp_class:
-        print("Работодатели",item_class)
+        print("Работодатели", item_class)
     print("Данные работодателей считаны\n\n")
 
     # Загрузка вакансий по работодателю
@@ -36,7 +35,7 @@ if __name__ == '__main__':
     with open(ROOT_DIR + '\\data\\emp_vac.json', 'w', encoding='utf-8') as f:
         json.dump(list_emp_vac, f, indent=4, sort_keys=True, ensure_ascii=False)
     print("Вакансии записаны в emp_vac.json")
-    list_vac_class = vac_load(list_emp_vac) #из списка работодателей создаем класс вакансий
+    list_vac_class = vac_load(list_emp_vac)  # из списка работодателей создаем класс вакансий
     for item_class in list_vac_class:
         print(item_class)
     print("Данные вакансий считаны")

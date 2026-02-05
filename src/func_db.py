@@ -1,6 +1,7 @@
 import psycopg2
 from src.cl_vacancy import Vacancy
 
+
 def db_connect(db_name: str):
     """Подключение или инициализация БД и таблиц"""
     conn = psycopg2.connect(
@@ -72,10 +73,6 @@ def ins_tab_vac(db_name: str, list_vac_class: Vacancy()):
     print("Вакансии", len(list_vac_class))
     conn.autocommit = True
     cur = conn.cursor()
-    i = 0
-    ins_count = 0
-    ins_count_err = 0
-
     # emp_class_item = Employers
     # while i < len(list_vac_class):
     #     emp_class_item.emp_idd = list_vac_class[i].emp_id

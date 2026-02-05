@@ -73,9 +73,9 @@ class HeadHunterVac(ParserHHV):
         self._vacancies = all_vacancies
         return self._vacancies
 
+
 if __name__ == "__main__":
     hh_api = HeadHunterVac()
     hh_api._connect_to_api()
     api_vacantions = hh_api.load_vacancies("Python")
     print("REZ parser  VACANTIONS", api_vacantions)
-
