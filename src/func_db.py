@@ -1,5 +1,4 @@
 import psycopg2
-from src.cl_vacancy import Vacancy
 
 
 def db_connect(db_name: str):
@@ -12,8 +11,8 @@ def db_connect(db_name: str):
     conn.autocommit = True
     try:
         cur = conn.cursor()
-    except:
-        print("Ошибка подключения db_connect True")
+    except Exception as e:
+        print("Ошибка подключения db_connect:", {e})
     finally:
         print("Соединение успешно")
     # Удаление BD
@@ -22,8 +21,8 @@ def db_connect(db_name: str):
         print(f"Удаление БД '{db_name}' выполнено")
         cur.execute(f"CREATE DATABASE {db_name};")
         print(f"Создание БД - {db_name}")
-    except:
-        print(f"Ошибка обработки, БД -'{db_name}")
+    except Exception as e:
+        print("Ошибка подключения db_connect:", {e})
     finally:
         print(f"Инициализация БД {db_name} прошла успешно")
     # Создание новой BD
@@ -40,23 +39,22 @@ def db_connect(db_name: str):
         conn.autocommit = True
         cur = conn.cursor()
         try:
-            cur.execute("CREATE TABLE tab_vac (vac_id varchar, vac_name varchar, vac_url varchar, "
-                        "sal_from float, sal_to float, sal_mode varchar, sal_mode_n varchar, sal_cur varchar, "
-                        "sn_requirement varchar, sn_responsibility varchar, "
-                        "emp_id varchar, emp_name varchar)")
+            cur.execute(f"CREATE TABLE tab_vac (vac_id varchar, vac_name varchar, vac_url varchar, "
+                        f"sal_from float, sal_to float, sal_mode varchar, sal_mode_n varchar, sal_cur varchar, "
+                        f"sn_requirement varchar, sn_responsibility varchar, emp_id varchar, emp_name varchar)")
             print("Таблица tab_vac создана")
-        except:
-            print("Ошибка создания таблицы tab_vac")
+        except Exception as e:
+            print("Ошибка создания tab_vac:", {e})
         try:
-            cur.execute("CREATE TABLE tab_emp (emp_id varchar, emp_name varchar, emp_url varchar, emp_vac_url varchar, "
-                        "open_vac int)")
+            cur.execute(f"CREATE TABLE tab_emp (emp_id varchar, emp_name varchar, emp_url varchar,emp_vac_url "
+                        f"varchar, open_vac int)")
             print("Таблица tab_emp создана")
-        except:
-            print("Ошибка создания таблицы tab_emp")
+        except Exception as e:
+            print("Ошибка создания tab_emp:", {e})
         cur.close()
         conn.close()
-    except:
-        print("Ошибка подключения db_connect False")
+    except Exception as e:
+        print("Ошибка подключения db_connect False", {e})
     finally:
         print(f"Соединение и создание таблиц успешно c {db_name}")
 

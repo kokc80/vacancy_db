@@ -6,8 +6,17 @@ import os
 import json
 from src.functions import emp_load, vac_load, compile_vac_from_emp
 from src.func_db import db_connect, exec_query
+from src.cl_DBManager import DBManager
 from src.cl_parser_hhe import HeadHunterEmp
 from src.cl_parser_hhv import HeadHunterVac
+
+
+def print_top10(tmp_list):
+    i_tmp = 0
+    for row in tmp_list:
+        i_tmp += 1
+        if i_tmp <= 10:
+            print(row)
 
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -37,9 +46,9 @@ if __name__ == '__main__':
                         f"(\'{item_class.emp_idd}\',\'{item_class.emp_name}\',\'{item_class.emp_url}\',"
                         f"\'{item_class.vac_url}\',{item_class.open_vac})")
             ins_count += 1
-            exec_query("vacancy_db",q_insert)
-        except:
-            print(f"Ошибка вставки в tab_emp \n {q_insert}")
+            exec_query("vacancy_db", q_insert)
+        except Exception as e:
+            print(f"Ошибка вставки в tab_emp \n {q_insert}", {e})
             ins_count_err += 1
         finally:
             i += 1
@@ -64,15 +73,32 @@ if __name__ == '__main__':
                         f"(\'{item_cl.vac_idd}\',\'{item_cl.vac_name}\',\'{item_cl.vac_url}\',{item_cl.sal_from},"
                         f"{item_cl.sal_to},\'{item_cl.sal_mode}\',\'{item_cl.sal_mode_n}\',\'{item_cl.sal_cur}\',"
                         f"\'{item_cl.sn_req}\',\'{item_cl.sn_res}\',\'{item_cl.emp_idd}\',\'{item_cl.emp_name}\')")
-                        # f",\'{item_cl.emp_url}\')")
             ins_count += 1
             exec_query("vacancy_db", q_insert)
-        except:
-            print(f"Ошибка вставки в tab_vac \n {q_insert}")
+        except Exception as e:
+            print(f"Ошибка вставки в tab_vac \n {q_insert}", {e})
             ins_count_err += 1
         finally:
             i += 1
     print(f"Вставлено вакансий: {str(ins_count)} записей из {i} записей \n Ошибок записи: {str(ins_count_err)}")
     print("Вакансии записаны в emp_vac.json")
 
-    # ins_tab_vac("vacancy_db", list_vac_class)
+    db_manage = DBManager()
+    result_list = db_manage.get_companies_and_vacancies_count("vacancy_db")
+    print_top10(result_list)
+    print(f"Список всех компаний и количество вакансий Количество: {len(result_list)}\n")
+
+    result_list = db_manage.get_all_vacancies("vacancy_db")
+    print_top10(result_list)
+    print(f"Список всех вакансий Количество: {len(result_list)}\n")
+
+    result_list = db_manage.get_avg_salary("vacancy_db")
+    print(f"Средняя зарплата по вакансиям: {result_list}")
+
+    result_list = db_manage.get_vacancies_with_higher_salary("vacancy_db")
+    print_top10(result_list)
+    print(f"Список вакансий с зарплатой больше средней Количество: {len(result_list)}\n")
+
+    result_list = db_manage.get_vacancies_with_keyword("vacancy_db", "инженер")
+    print_top10(result_list)
+    print(f"Список вакансий с ключ словом Количество: {len(result_list)}\n")
