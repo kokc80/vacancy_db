@@ -17,7 +17,7 @@ class Employers:
         }
 
     def __str__(self):
-        return (f"Класс Emp Idd:{self.emp_idd}, name:{self.emp_name}, URL:{self.vac_url}, VackURL:{self.vac_url}, "
+        return (f"Класс Emp Idd:{self.emp_idd}, name:{self.emp_name}, emp_URL:{self.emp_url}, VacURL:{self.vac_url}, "
                 f"OpenVac:{self.open_vac}")
 
     def __init__(self):

@@ -10,12 +10,16 @@ def emp_load(emp_list: list) -> Employers():
     emp_class_item = Employers
     i = 0
     # print("emp_list", emp_list)
+
     emp_class_list = [Employers()]
     for emp_list_item in emp_list:
         emp_class_item = Employers()
+        # emp_class_item.emp_idd = emp_list_item["id"]
+        # if emp_list_item.get("employer", None) is not None:
+        #     if emp_list_item.get("employer", {}).get("id", None) is not None:
         emp_class_item.emp_idd = emp_list_item["id"]
         emp_class_item.emp_name = emp_list_item["name"]
-        emp_class_item.emp_url = emp_list_item.get("employer", {}.get("url", "NONE"))
+        emp_class_item.emp_url = emp_list_item["url"]
         emp_class_item.vac_url = emp_list_item.get("vacancies_url", "NONE")
         emp_class_item.open_vac = emp_list_item.get("open_vacancies", 0)
         emp_class_list.append(emp_class_item)
@@ -67,13 +71,13 @@ def vac_load(vac_list: list):
             if vac_list_item["salary_range"]["to"] is not None:
                 vac_class_item.sal_to = vac_list_item["salary_range"]["to"]
             else:
-                vac_class_item.sal_to = -1
+                vac_class_item.sal_mode = -1
             if vac_list_item["salary_range"]["mode"] is not None:
-                vac_class_item.sal_to = vac_list_item["salary_range"]["mode"]["id"]
+                vac_class_item.sal_mode = vac_list_item["salary_range"]["mode"]["id"]
             else:
                 vac_class_item.sal_mode_n = ""
             if vac_list_item["salary_range"]["mode"] is not None:
-                vac_class_item.sal_to = vac_list_item["salary_range"]["mode"]["name"]
+                vac_class_item.sal_mode_n = vac_list_item["salary_range"]["mode"]["name"]
             else:
                 vac_class_item.sal_mode_n = ""
         else:
@@ -112,7 +116,7 @@ def compile_vac_from_emp(list_emp: list):
             API_headers = {'User-Agent': 'HH-User-Agent'}
             API_params = {'page': 0, 'per_page': 100}
             if item_emp['open_vacancies'] != 0:
-                # print(f"Работодатель {i} из {i_all}\n API_URL :{item_emp["vacancies_url"]}")
+                # print(f"Работодатель {i} из {i_all}\n VAC_API_URL :{item_emp["vacancies_url"]}")
                 response = requests.get(item_emp["vacancies_url"], headers=API_headers, params=API_params)
                 status = response.status_code
                 data_vac = response.json()

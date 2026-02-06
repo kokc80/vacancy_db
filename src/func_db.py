@@ -41,15 +41,15 @@ def db_connect(db_name: str):
         cur = conn.cursor()
         try:
             cur.execute("CREATE TABLE tab_vac (vac_id varchar, vac_name varchar, vac_url varchar, "
-                        "sal_from float, sal_to float, sal_mode varchar, sal_mode_n varchar, sal_cur varchar"
+                        "sal_from float, sal_to float, sal_mode varchar, sal_mode_n varchar, sal_cur varchar, "
                         "sn_requirement varchar, sn_responsibility varchar, "
-                        "emp_id varchar, emp_name varchar,")
+                        "emp_id varchar, emp_name varchar)")
             print("Таблица tab_vac создана")
         except:
             print("Ошибка создания таблицы tab_vac")
         try:
-            cur.execute("CREATE TABLE tab_emp (emp_id int, emp_name varchar, emp_url varchar, emp_vac_url varchar, "
-                        "open_vac int")
+            cur.execute("CREATE TABLE tab_emp (emp_id varchar, emp_name varchar, emp_url varchar, emp_vac_url varchar, "
+                        "open_vac int)")
             print("Таблица tab_emp создана")
         except:
             print("Ошибка создания таблицы tab_emp")
@@ -61,8 +61,8 @@ def db_connect(db_name: str):
         print(f"Соединение и создание таблиц успешно c {db_name}")
 
 
-def ins_tab_vac(db_name: str, list_vac_class: Vacancy()):
-    """"""
+def exec_query(db_name: str, query_tmp):
+    """Выполнение запроса к БД"""
     conn = psycopg2.connect(
         host="localhost",
         database=db_name,
@@ -70,24 +70,8 @@ def ins_tab_vac(db_name: str, list_vac_class: Vacancy()):
         password="678330",
         port="5432"
     )
-    print("Вакансии", len(list_vac_class))
     conn.autocommit = True
     cur = conn.cursor()
-    # emp_class_item = Employers
-    # while i < len(list_vac_class):
-    #     emp_class_item.emp_idd = list_vac_class[i].emp_id
-    #     emp_class_item.emp_name = list_vac_class[i].emp_name
-    #     emp_class_item.emp_url = list_vac_class[i].emp_url
-    #     q_insert = (f"INSERT INTO tab_emp (emp_id, emp_name, emp_url) VALUES (\'{emp_class_item.emp_idd}\', "
-    #                 f"\'{emp_class_item.emp_name}\', \'{emp_class_item.emp_url}\')")
-    #     try:
-    #         cur.execute(q_insert)
-    #         ins_count += 1
-    #     except:
-    #         print(f"Ошибка вставки в tab_emp1 \n {q_insert}")
-    #         ins_count_err += 1
-    #     finally:
-    #         i += 1
-    # print(f"Вставлено вакансий {ins_count} записей из {i} записей \n Ошибок записи {ins_count_err} ")
+    cur.execute(query_tmp)
     cur.close()
     conn.close()

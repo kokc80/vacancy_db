@@ -8,11 +8,10 @@ class DBManager:
         conn = psycopg2.connect(host="localhost", database=db_name, user="postgres", password="678330", port="5432")
         conn.autocommit = True
         cur = conn.cursor()
-        tmp_quwery = "SELECT count(*) tab_emp"
-        # cur.execute(tmp_quwery)
+        tmp_quwery = ("SELECT tv.vac_id,tv.vac_name,te.emp_id,te.emp_name FROM public.tab_vac as tv,public.tab_emp as te "
+                      "where tv.emp_id = te.emp_id")
+        cur.execute(tmp_quwery)
 
-        tmp_quwery = "SELECT count(*) from tab_emp"
-        # cur.execute(tmp_quwery)
 
     def get_all_vacancies(self):
         """получает список всех вакансий с указанием наз-я компании, наз-я вакансии и зарплаты и ссылки на вакансию."""
