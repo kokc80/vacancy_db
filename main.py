@@ -25,14 +25,14 @@ if __name__ == "__main__":
 
     print("Загрузка работодателей")
     # считывание данных работодателей с API
-    # cl_Emp = HeadHunterEmp()
-    # list_emp = cl_Emp.load_employers("Якутск") # Загрузка работодателей с API
-    # with open(ROOT_DIR + '\\data\\emp_1.json', 'w', encoding='utf-8') as f:
-    #     json.dump(list_emp, f, indent=4, sort_keys=True, ensure_ascii=False)
+    cl_Emp = HeadHunterEmp()
+    list_emp = cl_Emp.load_employers("Якутск") # Загрузка работодателей с API
+    with open(ROOT_DIR + '\\data\\emp_1.json', 'w', encoding='utf-8') as f:
+        json.dump(list_emp, f, indent=4, sort_keys=True, ensure_ascii=False)
 
     # считывание данных работодателя с json временно
-    with open(ROOT_DIR + "\\data\\emp_1.json", "r", encoding="utf-8") as f:
-        list_emp = json.load(f)
+    # with open(ROOT_DIR + "\\data\\emp_1.json", "r", encoding="utf-8") as f:
+    #     list_emp = json.load(f)
 
     list_emp_class = emp_load(
         list_emp

@@ -893,7 +893,7 @@
             "original": "https://img.hhcdn.ru/employer-logo-original-round/3165659.jpeg"
         },
         "name": "Полиметалл",
-        "open_vacancies": 323,
+        "open_vacancies": 324,
         "url": "https://api.hh.ru/employers/174",
         "vacancies_url": "https://api.hh.ru/vacancies?employer_id=174"
     },
@@ -1673,7 +1673,7 @@
             "original": "https://img.hhcdn.ru/employer-logo-original-round/5600647.jpeg"
         },
         "name": "Якутский Гормолзавод",
-        "open_vacancies": 1,
+        "open_vacancies": 2,
         "url": "https://api.hh.ru/employers/9095458",
         "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9095458"
     },
@@ -1867,7 +1867,7 @@
             "original": "https://img.hhcdn.ru/employer-logo-original-round/2841686.jpeg"
         },
         "name": "Якутский Хлебокомбинат",
-        "open_vacancies": 2,
+        "open_vacancies": 5,
         "url": "https://api.hh.ru/employers/3678558",
         "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3678558"
     },

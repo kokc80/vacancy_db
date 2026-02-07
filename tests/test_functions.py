@@ -265,9 +265,3 @@ class TestRezLoadEmp:
         assert isinstance(result, list)
         assert len(result) == 1
         assert result[0] == vac_list["items"][0]
-
-# [{"id": "129559102", "name": "vac_name_102", "url": "vac_url_102",
-# "salary_range": {"currency": "RUR", "from": null, "mode": {"id": "MONTH", "name": "За месяц"}, "to": 90000},
-# "snippet": {"requirement": "sn_req_102","responsibility": "sn_res_102"},
-# "employer": {"id": "102", "name": "Аэропорт Якутск9", "url": "emp_url_102", "vacancies_url": "emp_vac_url_102"}, }]
-
