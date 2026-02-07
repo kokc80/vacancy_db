@@ -65,6 +65,7 @@ test_vac1.emp_idd = "129559101"
 test_vac1.emp_name = "Аэропорт Якутск1"
 test_vac1.emp_url = "emp_url_101"
 
+
 def test_vac_load():
     # Входные данные
     mock_data = [
@@ -239,27 +240,11 @@ class TestRezLoadEmp:
 
     def test_deep_nested_structure(self):
         """Тест: сложная вложенная структура внутри items"""
-        vac_list = {
-			"items": [
-				{
-					"vacancies_url": "https://example.com/vac/1",
-					"name": "Python Developer",
-					"snippet": {
-						"requirement": "Глубокие знания Python",
-						"responsibility": "Архитектура микросервисов",
-						"additional": {
-							"stack": ["FastAPI", "PostgreSQL"],
-							"team": "5 человек"
-						}
-					},
-					"metadata": {
-						"created": "2023-01-01",
-						"updated": "2023-01-15"
-					}
-				}
-			]
-		}
-
+        vac_list = {"items": [{"vacancies_url": "https://example.com/vac/1", "name": "Python Developer",
+                               "snippet": {"requirement": "Глубокие знания Python",
+                                           "responsibility": "Арх-ра микросервисов", "additional":
+                                               {"stack": ["FastAPI", "PostgreSQL"], "team": "5 челк"}},
+                               "metadata": {"created": "2023-01-01", "updated": "2023-01-15"}}]}
         result = rez_load_emp(vac_list)
 
         assert isinstance(result, list)

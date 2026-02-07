@@ -65,7 +65,5 @@ class Vacancy:
         self.emp_name = ""
         self.emp_url = ""
 
-
-
     def __str__(self):
         return f"vac_id,name: {self.vac_idd},{self.vac_name};\n   emp_id,name: {self.emp_idd},{self.emp_name}"
