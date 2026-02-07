@@ -7,6 +7,7 @@ class ParserHHE(ABC):
     """
     Класс Parser является абстрактным родительским классом
     """
+
     @abstractmethod
     def load_employers(self, keyword) -> None:
         pass
@@ -18,10 +19,11 @@ class ParserHHE(ABC):
 
 class HeadHunterEmp(ParserHHE):
     """Класс для получения работодателй с API HeadHunter"""
+
     def __init__(self):
-        self.__url = 'https://api.hh.ru/employers'
-        self._headers = {'User-Agent': 'HH-User-Agent'}
-        self._params = {'text': '', 'page': 0, 'per_page': 100}
+        self.__url = "https://api.hh.ru/employers"
+        self._headers = {"User-Agent": "HH-User-Agent"}
+        self._params = {"text": "", "page": 0, "per_page": 100}
         self._employers = []
 
     def _connect_to_api(self):
@@ -33,29 +35,31 @@ class HeadHunterEmp(ParserHHE):
             print("EMP connect 200")
             return response
         else:
-            return 'Ошибка при обращении к API Emp - error'
+            return "Ошибка при обращении к API Emp - error"
 
-    def load_employers(self, keyword):
+    def load_employers(self, keyword) -> list:
         """Получение списка вакансий с API"""
-        self._params['text'] = keyword
-        self._params['page'] = 0  # Инициализируем страницу
+        self._params["text"] = keyword
+        self._params["page"] = 0  # Инициализируем страницу
         all_employers = []  # Временный список для всех вакансий
 
-        while self._params['page'] <= 200:
+        while self._params["page"] <= 200:
             try:
-                response = requests.get(self.__url, headers=self._headers, params=self._params)
+                response = requests.get(
+                    self.__url, headers=self._headers, params=self._params
+                )
                 response.raise_for_status()  # Проверяем HTTP-статус
                 data = response.json()
                 # Проверяем наличие 'items' в ответе
-                if 'items' not in data:
+                if "items" not in data:
                     print(f"Нет данных 'items' на странице {self._params['page']}")
                     break
-                employers_items = data['items']
+                employers_items = data["items"]
                 for employers in employers_items:
                     all_employers.append(employers)
                 if len(employers_items) == 0:
                     break
-                self._params['page'] += 1
+                self._params["page"] += 1
             except requests.exceptions.RequestException as e:
                 print(f"Ошибка запроса на странице {self._params['page']}: {e}")
                 break
@@ -65,7 +69,6 @@ class HeadHunterEmp(ParserHHE):
 
         # Сохраняем все вакансии в атрибут класса
         self._vacancies = all_employers
-
         return all_employers
 
 

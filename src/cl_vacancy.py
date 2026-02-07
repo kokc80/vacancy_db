@@ -1,8 +1,23 @@
 class Vacancy:
-    """ класс представляет одну вакансию """
-    __slots__ = ['vac_idd', 'vac_name', 'vac_url', 'sal_from', 'sal_to', 'sal_mode', 'sal_mode_n', 'sal_cur',
-                 'sn_req', 'sn_res', 'emp_idd', 'emp_name', 'emp_url']
-    vac_idd: int
+    """класс представляет одну вакансию"""
+
+    __slots__ = [
+        "vac_idd",
+        "vac_name",
+        "vac_url",
+        "sal_from",
+        "sal_to",
+        "sal_mode",
+        "sal_mode_n",
+        "sal_cur",
+        "sn_req",
+        "sn_res",
+        "emp_idd",
+        "emp_name",
+        "emp_url",
+        "open_vac",
+    ]
+    vac_idd: str
     vac_name: str
     vac_url: str
     sal_from: float
@@ -15,6 +30,7 @@ class Vacancy:
     emp_idd: str
     emp_name: str
     emp_url: str
+    open_vac: int
 
     def to_dict(self):
         return {
@@ -30,10 +46,12 @@ class Vacancy:
             "sn_res": self.sn_res,
             "emp_idd": self.emp_idd,
             "emp_name": self.emp_name,
-            "emp_url": self.emp_url}
+            "emp_url": self.emp_url,
+            "open_vac": self.open_vac,
+        }
 
     def __init__(self):
-        self.vac_idd = None      # Инициализируем как None или пустую строку
+        self.vac_idd = None  # Инициализируем как None или пустую строку
         self.vac_name = ""
         self.vac_url = ""
         self.sal_from = 0
@@ -47,5 +65,7 @@ class Vacancy:
         self.emp_name = ""
         self.emp_url = ""
 
+
+
     def __str__(self):
-        return (f"vac_id,name: {self.vac_idd},{self.vac_name};\n   emp_id,name: {self.emp_idd},{self.emp_name}")
+        return f"vac_id,name: {self.vac_idd},{self.vac_name};\n   emp_id,name: {self.emp_idd},{self.emp_name}"

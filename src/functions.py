@@ -1,17 +1,18 @@
 from types import NoneType
 
 import requests
+
 from src.cl_emlpoyers import Employers
 from src.cl_vacancy import Vacancy
 
 
-def emp_load(emp_list: list) -> Employers():
+def emp_load(emp_list: list) -> list:
     """Заполнение класса работодателей"""
     emp_class_item = Employers
     i = 0
     # print("emp_list", emp_list)
 
-    emp_class_list = [Employers()]
+    emp_class_list = []
     for emp_list_item in emp_list:
         emp_class_item = Employers()
         # emp_class_item.emp_idd = emp_list_item["id"]
@@ -24,7 +25,7 @@ def emp_load(emp_list: list) -> Employers():
         emp_class_item.open_vac = emp_list_item.get("open_vacancies", 0)
         emp_class_list.append(emp_class_item)
         i += 1
-    return (emp_class_list)
+    return emp_class_list
 
 
 def vac_load(vac_list: list):
@@ -35,7 +36,7 @@ def vac_load(vac_list: list):
     vac_class_list = []
     while i < len(vac_list):
         vac_list_item = vac_list[i]
-        vac_class_item = Vacancy()
+        vac_class_item = Vacancy
         vac_class_item.vac_idd = vac_list_item["id"]
         vac_class_item.vac_name = vac_list_item["name"]
         vac_class_item.vac_url = vac_list_item.get("url", "NONE")
@@ -59,7 +60,7 @@ def vac_load(vac_list: list):
             vac_class_item.emp_idd = 0
             vac_class_item.emp_name = "Нет названия"
             vac_class_item.emp_url = "Нет ссылки"
-        if vac_list_item["salary"] is not None:
+        if vac_list_item["salary_range"] is not None:
             if vac_list_item["salary_range"]["currency"] is not None:
                 vac_class_item.sal_cur = vac_list_item["salary_range"]["currency"]
             else:
@@ -77,7 +78,9 @@ def vac_load(vac_list: list):
             else:
                 vac_class_item.sal_mode_n = ""
             if vac_list_item["salary_range"]["mode"] is not None:
-                vac_class_item.sal_mode_n = vac_list_item["salary_range"]["mode"]["name"]
+                vac_class_item.sal_mode_n = vac_list_item["salary_range"]["mode"][
+                    "name"
+                ]
             else:
                 vac_class_item.sal_mode_n = ""
         else:
@@ -101,7 +104,7 @@ def vac_load(vac_list: list):
         vac_class_list.append(vac_class_item)
         # print(vac_list_item,f"\nпроверка vac_load \neee id {vac_class_item.emp_id} ddd {vac_class_item.emp_name}")
         i += 1
-    return (vac_class_list)
+    return vac_class_list
 
 
 def compile_vac_from_emp(list_emp: list):
@@ -113,11 +116,13 @@ def compile_vac_from_emp(list_emp: list):
         i += 1
         # сокращаем количество работодателей
         if i < 1500:
-            API_headers = {'User-Agent': 'HH-User-Agent'}
-            API_params = {'page': 0, 'per_page': 100}
-            if item_emp['open_vacancies'] != 0:
+            API_headers = {"User-Agent": "HH-User-Agent"}
+            API_params = {"page": 0, "per_page": 100}
+            if item_emp["open_vacancies"] != 0:
                 # print(f"Работодатель {i} из {i_all}\n VAC_API_URL :{item_emp["vacancies_url"]}")
-                response = requests.get(item_emp["vacancies_url"], headers=API_headers, params=API_params)
+                response = requests.get(
+                    item_emp["vacancies_url"], headers=API_headers, params=API_params
+                )
                 status = response.status_code
                 data_vac = response.json()
                 # print("Данные вакансий", data_vac)
@@ -129,8 +134,11 @@ def compile_vac_from_emp(list_emp: list):
                             for emp_vac_item in emp_vac:
                                 emp_vac_list.append(emp_vac_item)
                 else:
-                    print('Ошибка при обращении к API Vac - error', item_emp["vacancies_url"])
-    return (emp_vac_list)
+                    print(
+                        "Ошибка при обращении к API Vac - error",
+                        item_emp["vacancies_url"],
+                    )
+    return emp_vac_list
 
 
 def rez_load_emp(vac_list):
@@ -139,17 +147,18 @@ def rez_load_emp(vac_list):
     tmp_list = []
     if "items" not in vac_list:
         result = "Нет данных 'items' на странице {self._params['page']}"
-        return (result)
+        return result
     else:
-        vac_items = vac_list['items']
+        vac_items = vac_list["items"]
         # Убираем работодателей без вакансий
         if len(vac_items) > 0:
             for vac_item in vac_items:
-                result = (
-                    f"VAC_item: {vac_item}\nVAC_print: {vac_item.get("vacancies_url", "Без URL")},"
-                    f"{vac_item.get("name", "без назв-я")}, {vac_item["snippet"]["requirement"]},"
-                    f"{vac_item["snippet"]["responsibility"]}\n")
+                # result = (
+                #      f"VAC_item: {vac_item}\nVAC_print: {vac_item.get("vacancies_url", "Без URL")},"
+                #      f"{vac_item.get("name", "без назв-я")}, {vac_item["snippet"]["requirement"]},"
+                #      f"{vac_item["snippet"]["responsibility"]}\n"
+                # )
                 tmp_list.append(vac_item)
         else:
             return
-    return (tmp_list)
+    return tmp_list
