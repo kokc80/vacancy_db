@@ -2,7 +2,7 @@ import pytest
 
 from src.cl_emlpoyers import Employers
 from src.cl_vacancy import Vacancy
-from src.functions import emp_load, vac_load, rez_load_emp
+from src.functions import emp_load, rez_load_emp, vac_load
 
 
 def test_emp_load():
@@ -70,10 +70,22 @@ def test_vac_load():
     # Входные данные
     mock_data = [
         {
-            "id": "129559101", "name": "vac_name_101", "url": "vac_url_101",
-            "salary_range": {"currency": "RUR", "from": 0, "mode": {"id": "MONTH", "name": "За месяц"}, "to": 1000},
+            "id": "129559101",
+            "name": "vac_name_101",
+            "url": "vac_url_101",
+            "salary_range": {
+                "currency": "RUR",
+                "from": 0,
+                "mode": {"id": "MONTH", "name": "За месяц"},
+                "to": 1000,
+            },
             "snippet": {"requirement": "sn_req_101", "responsibility": "sn_res_101"},
-            "employer": {"id": "101", "name": "ООО Якутск1", "url": "emp_url_101", "vacancies_url": "emp_vacurl_101"},
+            "employer": {
+                "id": "101",
+                "name": "ООО Якутск1",
+                "url": "emp_url_101",
+                "vacancies_url": "emp_vacurl_101",
+            },
         },
     ]
 
@@ -133,8 +145,8 @@ class TestRezLoadEmp:
                     "name": "Python Developer",
                     "snippet": {
                         "requirement": "Опыт 3+ года",
-                        "responsibility": "Разработка API"
-                    }
+                        "responsibility": "Разработка API",
+                    },
                 }
             ]
         }
@@ -154,17 +166,17 @@ class TestRezLoadEmp:
                     "name": "Python Developer",
                     "snippet": {
                         "requirement": "Опыт 3+ года",
-                        "responsibility": "Разработка API"
-                    }
+                        "responsibility": "Разработка API",
+                    },
                 },
                 {
                     "vacancies_url": "https://example.com/vac/2",
                     "name": "QA Engineer",
                     "snippet": {
                         "requirement": "Знание SQL",
-                        "responsibility": "Тестирование API"
-                    }
-                }
+                        "responsibility": "Тестирование API",
+                    },
+                },
             ]
         }
 
@@ -183,8 +195,8 @@ class TestRezLoadEmp:
                     "name": "Python Developer",
                     "snippet": {
                         "requirement": "Опыт 3+ года",
-                        "responsibility": "Разработка API"
-                    }
+                        "responsibility": "Разработка API",
+                    },
                 }
             ]
         }
@@ -204,8 +216,8 @@ class TestRezLoadEmp:
                     "vacancies_url": "https://example.com/vac/1",
                     "snippet": {
                         "requirement": "Опыт 3+ года",
-                        "responsibility": "Разработка API"
-                    }
+                        "responsibility": "Разработка API",
+                    },
                 }
             ]
         }
@@ -223,7 +235,7 @@ class TestRezLoadEmp:
             "items": [
                 {
                     "vacancies_url": "https://example.com/vac/1",
-                    "name": "Python Developer"
+                    "name": "Python Developer",
                 }
             ]
         }
@@ -240,11 +252,23 @@ class TestRezLoadEmp:
 
     def test_deep_nested_structure(self):
         """Тест: сложная вложенная структура внутри items"""
-        vac_list = {"items": [{"vacancies_url": "https://example.com/vac/1", "name": "Python Developer",
-                               "snippet": {"requirement": "Глубокие знания Python",
-                                           "responsibility": "Арх-ра микросервисов", "additional":
-                                               {"stack": ["FastAPI", "PostgreSQL"], "team": "5 челк"}},
-                               "metadata": {"created": "2023-01-01", "updated": "2023-01-15"}}]}
+        vac_list = {
+            "items": [
+                {
+                    "vacancies_url": "https://example.com/vac/1",
+                    "name": "Python Developer",
+                    "snippet": {
+                        "requirement": "Глубокие знания Python",
+                        "responsibility": "Арх-ра микросервисов",
+                        "additional": {
+                            "stack": ["FastAPI", "PostgreSQL"],
+                            "team": "5 челк",
+                        },
+                    },
+                    "metadata": {"created": "2023-01-01", "updated": "2023-01-15"},
+                }
+            ]
+        }
         result = rez_load_emp(vac_list)
 
         assert isinstance(result, list)

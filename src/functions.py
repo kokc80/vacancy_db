@@ -14,7 +14,7 @@ def emp_load(emp_list: list) -> list:
 
     emp_class_list = []
     for emp_list_item in emp_list:
-        emp_class_item = Employers()
+        emp_class_item = Employers
         # emp_class_item.emp_idd = emp_list_item["id"]
         # if emp_list_item.get("employer", None) is not None:
         #     if emp_list_item.get("employer", {}).get("id", None) is not None:
