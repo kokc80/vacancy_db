@@ -216,7 +216,7 @@ class TestRezLoadEmp:
                     "vacancies_url": "https://example.com/vac/1",
                     "snippet": {
                         "requirement": "Опыт 3+ года",
-                        "responsibility": "Разработка API",
+                        "responsibility": "Разработка API.",
                     },
                 }
             ]
