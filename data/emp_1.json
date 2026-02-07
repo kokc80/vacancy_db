@@ -1,0 +1,1952 @@
+[
+    {
+        "alternate_url": "https://hh.ru/employer/12087747",
+        "id": "12087747",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "1С-Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/12087747",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=12087747"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4992702",
+        "id": "4992702",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6866703.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6866702.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6866701.jpeg"
+        },
+        "name": "Askona (ИП Иванов Вячеслав Александрович), филиал г. Якутск",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/4992702",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4992702"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9519779",
+        "id": "9519779",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5834358.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5834357.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5834356.png"
+        },
+        "name": "Body-pit.ru Якутск (ИП Коркин Андрей Олегович)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9519779",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9519779"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3325488",
+        "id": "3325488",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/2491338.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/2491337.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/2491336.jpeg"
+        },
+        "name": "Mossebo Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3325488",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3325488"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10084708",
+        "id": "10084708",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6145450.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6145449.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6145447.png"
+        },
+        "name": "PROBRUNCH г. Якутск (ИП Попов Василий Кириллович)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10084708",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10084708"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5905103",
+        "id": "5905103",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/4116661.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/4116660.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/4116659.png"
+        },
+        "name": "Traveler`s Coffee (ООО Трэвэлерс Кофе Якутск)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5905103",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5905103"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5643454",
+        "id": "5643454",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Автономная Некоммерческая Профессиональная Образовательная организация Якутский Гуманитарный Колледж",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5643454",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5643454"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9593032",
+        "id": "9593032",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Администрация мкр. Марха МКУ ГО город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9593032",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9593032"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5585544",
+        "id": "5585544",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6770919.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6770918.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6770917.jpeg"
+        },
+        "name": "Аксиома Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5585544",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5585544"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3755593",
+        "id": "3755593",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Алгоритмика::Якутск (ИП Рукомойников Анатолий Николаевич)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3755593",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3755593"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5919976",
+        "id": "5919976",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Ами Медиа Якутское",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5919976",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5919976"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4878294",
+        "id": "4878294",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/3523842.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/3523841.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/3523840.png"
+        },
+        "name": "Аспломб-Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4878294",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4878294"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2894945",
+        "id": "2894945",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/4090656.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/4090655.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/4090654.png"
+        },
+        "name": "Аэропорт Якутск",
+        "open_vacancies": 24,
+        "url": "https://api.hh.ru/employers/2894945",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2894945"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9136768",
+        "id": "9136768",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "АЮСС Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9136768",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9136768"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/6017294",
+        "id": "6017294",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Варикоза Нет, г.Якутск",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/6017294",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6017294"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/6084929",
+        "id": "6084929",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/4278021.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/4278020.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/4278018.jpg"
+        },
+        "name": "Владторг, филиал в г. Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/6084929",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6084929"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3573083",
+        "id": "3573083",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГАПОУ РС(Я) Южно-Якутский технологический колледж",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3573083",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3573083"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9293377",
+        "id": "9293377",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГАПОУ РС(Я) Якутский промышленный техникум",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9293377",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9293377"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9213638",
+        "id": "9213638",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГАПОУ РС(Я) Якутский Технологический Техникум Сервиса Имени Ю.А. Готовцева",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9213638",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9213638"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3016297",
+        "id": "3016297",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГАПОУ Якутский колледж связи и энергетики имени П. И. Дудкина",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3016297",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3016297"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5713051",
+        "id": "5713051",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГАУ Республики Саха (Якутия) Якутская Городская Больница №3",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5713051",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5713051"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9115363",
+        "id": "9115363",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГАУ РС(Я) Медицинский центр г.Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9115363",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9115363"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9005625",
+        "id": "9005625",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГАУ РС (Я) Якутская Республиканская Офтальмологическая Клиническая Больница",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9005625",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9005625"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10992704",
+        "id": "10992704",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГБПОУ РС(Я) Якутская Балетная Школа (Колледж) Имени Аксении и Натальи Посельских",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10992704",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10992704"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11720678",
+        "id": "11720678",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГБПОУ РС (Я) Якутский сельскохозяйственный техникум",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11720678",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11720678"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5805904",
+        "id": "5805904",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГБПОУ Якутский Коммунально-Строительный Техникум",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5805904",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5805904"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5168125",
+        "id": "5168125",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГБУ Республики Саха (Якутия) Якутский республиканский онкологический диспансер",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5168125",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5168125"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9934588",
+        "id": "9934588",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГБУ РС(Я) Якутская республиканская ветеринарно-испытательная лаборатория",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9934588",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9934588"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5173329",
+        "id": "5173329",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГБУ РС(Я) Якутский музей",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5173329",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5173329"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9303245",
+        "id": "9303245",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГБУ РС(Я) Якутский республиканский медицинский информационно-аналитический центр",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9303245",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9303245"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1490643",
+        "id": "1490643",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГБУ РС (Я) Якутское постпредство в г. Москве",
+        "open_vacancies": 2,
+        "url": "https://api.hh.ru/employers/1490643",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1490643"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9105313",
+        "id": "9105313",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГКП РС (Я) Якутский скот",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9105313",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9105313"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9557320",
+        "id": "9557320",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ГКУ РС (Я) УСЗНиТ г.Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9557320",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9557320"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5741014",
+        "id": "5741014",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Гласис-Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5741014",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5741014"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/12012893",
+        "id": "12012893",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Городская Дорожно-Транспортная Служба Городского Округа Город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/12012893",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=12012893"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2928858",
+        "id": "2928858",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Государственное Бюджетное Учреждение Республики Саха (Якутия) Якутская Городская Больница №2",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2928858",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2928858"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9324057",
+        "id": "9324057",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Государственное бюджетное учреждение Республики Саха (Якутия) Якутский республиканский психоневрологический диспансер",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9324057",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9324057"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9249511",
+        "id": "9249511",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Департамент градостроительства и архитектуры Окружной администрации г. Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9249511",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9249511"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9514490",
+        "id": "9514490",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Департамент жилищно-коммунального хозяйства и энергетики Окружной администрации г. Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9514490",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9514490"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10519593",
+        "id": "10519593",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Департамент Цифрового Развития Окружной Администрации Города Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10519593",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10519593"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3860130",
+        "id": "3860130",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Департамент экономики Окружной администрации города Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3860130",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3860130"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2261176",
+        "id": "2261176",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ДубльГИС-Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2261176",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2261176"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5792976",
+        "id": "5792976",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Зоомаркет Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5792976",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5792976"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3482817",
+        "id": "3482817",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/2611822.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/2611821.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/2611820.png"
+        },
+        "name": "Лайк Центр г. Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3482817",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3482817"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9673122",
+        "id": "9673122",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Лх Интернэшнл Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9673122",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9673122"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11356876",
+        "id": "11356876",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Магазин Горящих Путевок г.Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11356876",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11356876"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4185990",
+        "id": "4185990",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Магазин Якутской национальной посуды Камелёк",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4185990",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4185990"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9098086",
+        "id": "9098086",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МАНОУ Дворец Детского Творчества Имени Ф.И.Авдеевой Городского Округа Город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9098086",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9098086"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/8890611",
+        "id": "8890611",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МАУ Центр управления общественными пространствами ГО город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/8890611",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=8890611"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/8948282",
+        "id": "8948282",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МБДОУ Детский сад №1 Звездочка ГО город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/8948282",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=8948282"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9347850",
+        "id": "9347850",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МБДОУ Детский Сад № 84 Искорка городского округа город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9347850",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9347850"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/6159815",
+        "id": "6159815",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МБДОУ Детский сад компенсирующего вида №13 Светлячок городского округа город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/6159815",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6159815"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9463348",
+        "id": "9463348",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МБДОУ Детский сад присмотра и оздоровления №30 Малышок городского округа г. Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9463348",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9463348"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/12521303",
+        "id": "12521303",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МБУ РГ Эхо Столицы Городского Округа Город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/12521303",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=12521303"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9446319",
+        "id": "9446319",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МБУ Ритуал ГО город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9446319",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9446319"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9105078",
+        "id": "9105078",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5605105.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5605104.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5605103.jpeg"
+        },
+        "name": "МБУ Централизованная Библиотечная Система Городского Округа Город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9105078",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9105078"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1098783",
+        "id": "1098783",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МЕГАПОЛИС ЯКУТСК",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1098783",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1098783"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/12067205",
+        "id": "12067205",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МКУ Агентство земельных отношений городского округа город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/12067205",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=12067205"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/6123930",
+        "id": "6123930",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МКУ Аппарат по обеспечению деятельности Якутской городской Думы",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/6123930",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6123930"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9934563",
+        "id": "9934563",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МКУ АФКиС ГО Город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9934563",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9934563"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9909992",
+        "id": "9909992",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МКУ Главстрой ГО город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9909992",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9909992"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9069220",
+        "id": "9069220",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МКУ Департамент жилищных отношений городского округа город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9069220",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9069220"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/12024590",
+        "id": "12024590",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МКУ РБЦ ГО Город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/12024590",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=12024590"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9103924",
+        "id": "9103924",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МКУ Управление сельского хозяйства городского округа город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9103924",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9103924"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11806729",
+        "id": "11806729",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МКУ Централизованная Бухгалтерия Городского Округа Город Якутск",
+        "open_vacancies": 6,
+        "url": "https://api.hh.ru/employers/11806729",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11806729"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11758089",
+        "id": "11758089",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МКУ ЦИТ ГО город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11758089",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11758089"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9187449",
+        "id": "9187449",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МОБУ СОШ №27 городского округа город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9187449",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9187449"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5985388",
+        "id": "5985388",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МОБУ Технический лицей Н.А.Алексеевой городского округа город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5985388",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5985388"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9920648",
+        "id": "9920648",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Монтажная компания Кровли Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9920648",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9920648"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4863839",
+        "id": "4863839",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МСЗ АРТ ГО Г.Якутск",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/4863839",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4863839"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/6059864",
+        "id": "6059864",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МУ МВД РФ Якутское",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/6059864",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6059864"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9133308",
+        "id": "9133308",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Муниципальное общеобразовательное бюджетное учреждение Средняя общеобразовательная школа № 32 городского округа город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9133308",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9133308"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5600440",
+        "id": "5600440",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МУП Аптеки Якутска ГО г.Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5600440",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5600440"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/8926349",
+        "id": "8926349",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МУП Городские Бани Городского Округа Город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/8926349",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=8926349"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4541471",
+        "id": "4541471",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МУП Горснаб ГО город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4541471",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4541471"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5326997",
+        "id": "5326997",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МУП ЖИЛКОМСЕРВИС ГО ГОРОД ЯКУТСК",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/5326997",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5326997"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5435886",
+        "id": "5435886",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МУП Якутская Пассажирская Автотранспортная Компания ГО Город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5435886",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5435886"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/965784",
+        "id": "965784",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "МЮЗ Якутские бриллианты",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/965784",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=965784"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4828199",
+        "id": "4828199",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Новый регистратор Якутский филиал",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4828199",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4828199"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10742666",
+        "id": "10742666",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Окружная администрация города Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10742666",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10742666"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4671873",
+        "id": "4671873",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ООИ Перспектива и Содействие+ Города Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4671873",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4671873"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4600830",
+        "id": "4600830",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ОТК-Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4600830",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4600830"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10075698",
+        "id": "10075698",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Официальный представитель FORWARD г. Якутск (ИП Данилов Николай Михайлович)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10075698",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10075698"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5574243",
+        "id": "5574243",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Парк активного отдыха Якутские горы",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5574243",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5574243"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/174",
+        "id": "174",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/3165661.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/3165660.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/3165659.jpeg"
+        },
+        "name": "Полиметалл",
+        "open_vacancies": 324,
+        "url": "https://api.hh.ru/employers/174",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=174"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3080119",
+        "id": "3080119",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Потребительский Кооператив Якутское Потребительское Общество",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3080119",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3080119"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11399488",
+        "id": "11399488",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Правовой департамент Окружной администрации города Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11399488",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11399488"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11430625",
+        "id": "11430625",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Представительство Министерства иностранных дел Российской Федерации в г. Якутске",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11430625",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11430625"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10654727",
+        "id": "10654727",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Пригородная Теплосетевая Компания Городского Округа Город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10654727",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10654727"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3248168",
+        "id": "3248168",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "РЕН-Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3248168",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3248168"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5798937",
+        "id": "5798937",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Республиканская юридическая компания Якутский Центр Списания Долгов",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5798937",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5798937"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2155509",
+        "id": "2155509",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1679087.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1679086.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1679085.png"
+        },
+        "name": "Решариум-Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2155509",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2155509"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1205471",
+        "id": "1205471",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Санг-Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1205471",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1205471"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11240268",
+        "id": "11240268",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Сельскохозяйственный Потребительский Кооператив Якутские Продукты",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11240268",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11240268"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11300280",
+        "id": "11300280",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6867515.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6867514.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6867513.jpeg"
+        },
+        "name": "СЗ Речной Порт Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11300280",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11300280"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11034171",
+        "id": "11034171",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6725923.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6725922.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6725921.png"
+        },
+        "name": "СК-ЯКУТСК",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11034171",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11034171"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5760727",
+        "id": "5760727",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5577689.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5577688.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5577687.jpeg"
+        },
+        "name": "СЛТК в г. Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5760727",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5760727"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2848299",
+        "id": "2848299",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Судоходная компания Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2848299",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2848299"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3009586",
+        "id": "3009586",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Тойота Центр Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3009586",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3009586"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11803843",
+        "id": "11803843",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "УК Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11803843",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11803843"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9965907",
+        "id": "9965907",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Управа Гагаринского округа МКУ ГО город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9965907",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9965907"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11257205",
+        "id": "11257205",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Управа Сайсарского округа МКУ ГО город Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11257205",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11257205"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10913084",
+        "id": "10913084",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Управление образования городского округа г. Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10913084",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10913084"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9885465",
+        "id": "9885465",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Управление Общественных Связей и Молодежной Политики Окружной Администрации Города Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9885465",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9885465"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5690477",
+        "id": "5690477",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6405454.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6405453.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6405452.png"
+        },
+        "name": "Фаворит Строй Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5690477",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5690477"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11360038",
+        "id": "11360038",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ФБУ Якутская ЛСЭ Минюста России",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11360038",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11360038"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/6055069",
+        "id": "6055069",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ФГБУН ФИЦ Якутский научный центр Сибирского отделения Российской академии наук Институт космофизических исследований и аэрономии им. Ю.Г. Шафера",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/6055069",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6055069"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4322049",
+        "id": "4322049",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ФГБУ Якутское управление по гидрометеорологии и мониторингу окружающей среды",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4322049",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4322049"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11259099",
+        "id": "11259099",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Филиал ДРСК Южно-Якутские электрические сети",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11259099",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11259099"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4763498",
+        "id": "4763498",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Филиал МЕД-ФУД г. Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4763498",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4763498"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9930600",
+        "id": "9930600",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Филиал ООО Аква Альянс в г. Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9930600",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9930600"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11175967",
+        "id": "11175967",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo/7143368.png",
+            "90": "https://img.hhcdn.ru/employer-logo/7143367.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original/1380893.png"
+        },
+        "name": "Филиал ООО МКК СДП Групп в г. Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11175967",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11175967"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4708274",
+        "id": "4708274",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6687147.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6687146.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6687145.jpeg"
+        },
+        "name": "Филиал ППК Роскадастр Якутское АГП",
+        "open_vacancies": 5,
+        "url": "https://api.hh.ru/employers/4708274",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4708274"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5597454",
+        "id": "5597454",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Филиал Якутский Вгсо ФГУП ВГСЧ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5597454",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5597454"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9267021",
+        "id": "9267021",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Фонд развития города Якутска",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9267021",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9267021"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/8996191",
+        "id": "8996191",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Футболки в Якутске",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/8996191",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=8996191"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3243207",
+        "id": "3243207",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ХК Якутский речной порт",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3243207",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3243207"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9787627",
+        "id": "9787627",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6926287.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6926286.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6926285.png"
+        },
+        "name": "Центр томографии Магнесия – Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9787627",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9787627"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5935398",
+        "id": "5935398",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Центр якутской кухни Махтал",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5935398",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5935398"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4744062",
+        "id": "4744062",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ЦРО Якутская Епархия Русской Православной Церкви (Московский Патриархат)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4744062",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4744062"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/8899290",
+        "id": "8899290",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Шерл Транспортная Компания, филиал в г. Якутске",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/8899290",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=8899290"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4946307",
+        "id": "4946307",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6659791.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6659790.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6659789.png"
+        },
+        "name": "Энергия, филиал г. Якутск",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4946307",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4946307"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1474530",
+        "id": "1474530",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ЭПЛ Якутские бриллианты",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1474530",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1474530"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/1630391",
+        "id": "1630391",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/1122444.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/1122443.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/1122442.jpeg"
+        },
+        "name": "ЭПЛ Якутские бриллианты",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/1630391",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1630391"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5441650",
+        "id": "5441650",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ЭПЛ ЯКУТСКИЕ БРИЛЛИАНТЫ",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5441650",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5441650"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4133017",
+        "id": "4133017",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/3072061.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/3072060.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/3072059.jpeg"
+        },
+        "name": "Эпл Якутские бриллианты ( ИП Высоцкий Сергей Львович)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4133017",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4133017"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4276833",
+        "id": "4276833",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ЭПЛ Якутские бриллианты ( ИП Зиновьева Ирина Сергеевна)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4276833",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4276833"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4156856",
+        "id": "4156856",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/3086577.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/3086576.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/3086575.jpeg"
+        },
+        "name": "ЭПЛ Якутские Бриллианты (ИП Корепанов Антон Александрович)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4156856",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4156856"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4537156",
+        "id": "4537156",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "ЭПЛ Якутские бриллианты (ИП Терещенко Наталья Леонидовна)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4537156",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4537156"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3921186",
+        "id": "3921186",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/3005021.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/3005020.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/3005019.jpeg"
+        },
+        "name": "ЭПЛ. Якутские бриллианты (ИП Ус Виталий Владимирович)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3921186",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3921186"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5402132",
+        "id": "5402132",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5597753.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5597752.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5597751.jpeg"
+        },
+        "name": "ЭПЛ Якутские Бриллианты (ООО Инсайт)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5402132",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5402132"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5404270",
+        "id": "5404270",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo/7278309.png",
+            "90": "https://img.hhcdn.ru/employer-logo/7278308.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original/1414662.png"
+        },
+        "name": "ЭПЛ Якутские Бриллианты (ООО Сибирия Даймонд)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5404270",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5404270"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9128095",
+        "id": "9128095",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5636489.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5636488.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5636487.png"
+        },
+        "name": "Якутск GO",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9128095",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9128095"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4675531",
+        "id": "4675531",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская биотехнологическая компания",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4675531",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4675531"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11283579",
+        "id": "11283579",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская больница ФГБУЗ ДВОМЦ ФМБА России",
+        "open_vacancies": 3,
+        "url": "https://api.hh.ru/employers/11283579",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11283579"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4974863",
+        "id": "4974863",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6331575.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6331574.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6331573.jpeg"
+        },
+        "name": "Якутская взрывная компания",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4974863",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4974863"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5349352",
+        "id": "5349352",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская газовая компания",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5349352",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5349352"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4758097",
+        "id": "4758097",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская геммологическая лаборатория",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4758097",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4758097"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2242575",
+        "id": "2242575",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская клининговая компания",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2242575",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2242575"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9622370",
+        "id": "9622370",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская Лифтовая Компания - Сервис",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9622370",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9622370"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11764960",
+        "id": "11764960",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская Пассажирская Автобусная Компания",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11764960",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11764960"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/6148673",
+        "id": "6148673",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская республиканская типография им. Ю.А. Гагарина",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/6148673",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6148673"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2669472",
+        "id": "2669472",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/3081237.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/3081236.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/3081234.jpg"
+        },
+        "name": "Якутская торговая компания",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/2669472",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2669472"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9206357",
+        "id": "9206357",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5659173.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5659172.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5659171.png"
+        },
+        "name": "Якутская Экологическая Компания",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9206357",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9206357"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4389071",
+        "id": "4389071",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская Электросетевая Компания",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4389071",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4389071"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3451289",
+        "id": "3451289",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская энергоремонтная компания",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3451289",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3451289"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10368070",
+        "id": "10368070",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутская ярмарка",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10368070",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10368070"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2587415",
+        "id": "2587415",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутские бриллианты",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2587415",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2587415"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9577575",
+        "id": "9577575",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутские деликатесы",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9577575",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9577575"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4571392",
+        "id": "4571392",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутские Металлы",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4571392",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4571392"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10980142",
+        "id": "10980142",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутские ножи",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10980142",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10980142"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5301953",
+        "id": "5301953",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутские электрические сети",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5301953",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5301953"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5671888",
+        "id": "5671888",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский автоцентр КАМАЗ (ООО Магаданский автоцентр КАМАЗ)",
+        "open_vacancies": 7,
+        "url": "https://api.hh.ru/employers/5671888",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5671888"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4889349",
+        "id": "4889349",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский автоцентр Туймаада",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4889349",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4889349"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9095458",
+        "id": "9095458",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5600649.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5600648.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5600647.jpeg"
+        },
+        "name": "Якутский Гормолзавод",
+        "open_vacancies": 2,
+        "url": "https://api.hh.ru/employers/9095458",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9095458"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10185360",
+        "id": "10185360",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский городской суд Республики Саха (Якутия)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10185360",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10185360"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2692100",
+        "id": "2692100",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский дом недвижимости",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2692100",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2692100"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11758260",
+        "id": "11758260",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/7130840.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/7130839.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/7130837.jpg"
+        },
+        "name": "Якутский завод металлических конструкций и резервуаров",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11758260",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11758260"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9592688",
+        "id": "9592688",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5869122.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5869121.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5869120.png"
+        },
+        "name": "Якутский котловой завод",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9592688",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9592688"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11769798",
+        "id": "11769798",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский отдел вневедомственной охраны – филиал ФГКУ УВО ВНГ России по РС (Я)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11769798",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11769798"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/8951550",
+        "id": "8951550",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский пчелоцентр (ИП Зверлефус Елена Валерьевна)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/8951550",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=8951550"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/2023687",
+        "id": "2023687",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский расчётный центр",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/2023687",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2023687"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10810737",
+        "id": "10810737",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6569786.png",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6569785.png",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6569784.png"
+        },
+        "name": "Якутский республиканский психологический центр",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10810737",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10810737"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5112577",
+        "id": "5112577",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский сыр",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5112577",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5112577"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3843437",
+        "id": "3843437",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский утилизационный центр",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/3843437",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3843437"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10580064",
+        "id": "10580064",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский филиал им. В.И. Гришукова СПбГУ ГА (Авиационное училище)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10580064",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10580064"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9944669",
+        "id": "9944669",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/6689515.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/6689514.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/6689513.jpeg"
+        },
+        "name": "Якутский филиал ООО Фонкор",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9944669",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9944669"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5453799",
+        "id": "5453799",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/7052463.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/7052462.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/7052460.jpg"
+        },
+        "name": "Якутский Филиал ПАО САК Энергогарант",
+        "open_vacancies": 3,
+        "url": "https://api.hh.ru/employers/5453799",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5453799"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11840759",
+        "id": "11840759",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский филиал ФБУ Территориальный фонд геологической информации по Дальневосточному федеральному округу",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11840759",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11840759"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9094938",
+        "id": "9094938",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский Филиал ФИЦ ЕГС РАН",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9094938",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9094938"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10896187",
+        "id": "10896187",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутский Фонд Недвижимости",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10896187",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10896187"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/3678558",
+        "id": "3678558",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/2841688.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/2841687.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/2841686.jpeg"
+        },
+        "name": "Якутский Хлебокомбинат",
+        "open_vacancies": 5,
+        "url": "https://api.hh.ru/employers/3678558",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3678558"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/11959949",
+        "id": "11959949",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутское бюро путешествий",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/11959949",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11959949"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/10868469",
+        "id": "10868469",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутское геологоразведочное предприятие",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/10868469",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10868469"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4334875",
+        "id": "4334875",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/3193741.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/3193740.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/3193739.jpeg"
+        },
+        "name": "Якутское Контейнерное Агентство",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4334875",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4334875"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9132915",
+        "id": "9132915",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутское РДУ, Филиал АО СО ЕЭС",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/9132915",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9132915"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/9010554",
+        "id": "9010554",
+        "is_identified_by_esia": false,
+        "logo_urls": {
+            "240": "https://img.hhcdn.ru/employer-logo-round/5810938.jpeg",
+            "90": "https://img.hhcdn.ru/employer-logo-round/5810937.jpeg",
+            "original": "https://img.hhcdn.ru/employer-logo-original-round/5810936.jpeg"
+        },
+        "name": "Якутское Республиканское Пожарное общество",
+        "open_vacancies": 1,
+        "url": "https://api.hh.ru/employers/9010554",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9010554"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/5532871",
+        "id": "5532871",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутское Республиканское Управление Инкассации (Республики Саха (Якутия))-Филиал Российского Объединения Инкассации (Росинкас)",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/5532871",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5532871"
+    },
+    {
+        "alternate_url": "https://hh.ru/employer/4162238",
+        "id": "4162238",
+        "is_identified_by_esia": false,
+        "logo_urls": null,
+        "name": "Якутское УФАС России",
+        "open_vacancies": 0,
+        "url": "https://api.hh.ru/employers/4162238",
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4162238"
+    }
+]
